@@ -122,26 +122,26 @@ experiences:
         time: 2022 - 2023
         company: Capgemini
         details: |
-          I was part of the infrastructure team that managed and improved the AWS platform on which a data visualisation project for a government department was hosted on. 
-          I acted as a DevOps advisor, identifying, addressing and solving issues related to processes, ways of working, coding standards, cost savings mechanisms, and security improvements.
-          I was given a brief opportunity to lead the team while the manager was away, where I had to guide and motivate the team, and ensure project delivery remained on track.
+          Part of the infrastructure team responsible for maintenance, upkeeping and development of the AWS platform.
+          The platform hosted a data visualisation solution for a large government department, data from around the organisation was onboarded, engineered, and then visualised in Qlik. 
+          My role as DevOps advisor was to, identify, address and solve issues related to infrastructure, CI/CD, processes, ways of working, coding base, cost, and security.
+          I was given an opportunity to lead the team while our manager was on leave, guiding and motivating the team to ensure project delivery remained on track, and all stakeholders were happy.
           Key take aways
-          - Vast variety of AWS services worked with
+          - Large variety of AWS services worked with
           - Responsible for the management of entire AWS platform
-          - Created numerous improvements for the platform
-          - Acted as lead periodically and had strong comms with the client
+          - Implented DevOps improvements for the platform
+          - Acted as team lead managing stakeholder relationships effectively
       - role: DevOps Engineer
         time: 2021 - 2022
         company: Capgemini
         details: |
-          Worked on one of the largest AWS environments as a DevOps engineer in data migration, we handle bulk data and deliver it to multiple downstream consumers across a number of releases. 
-          The project used terraform to create, manage and destroy migration infrastructure and automated repetitive processes with Jenkins.
-          I've supported multiple data releases and presented the work we're doing to the wider team in a knowledge share session, as well as being able to contribute my own ideas to the project.
+          Worked on one of the largest AWS accounts as a DevOps engineer in data migration, we handled bulk data and delivered it to multiple downstream consumers across the organisation.
+          The project used terraform to manage the migration infrastructure and Jenkins as the CI/CD tooling.
+          I supported multiple releases of data migrations, delivered presentations to winder stakeholders around the work we were doing, and was able to contribute my own ideas and suggestions to the project.
           Key take aways
           - Use of DMS, S3, SNS, RDS, CloudWatch, CLI
-          - SC Clearance
-          - Confidently deploy AWS Database Migration infrastructure and carry out bulk operations independently
-          - The main resource responsible for all the data to a downstream consumer
+          - Deployed AWS Database Migration infrastructure and carry out bulk operations independently
+          - Became the main contact responsible for managing these migration releases
 
 
 certifications:
@@ -168,7 +168,7 @@ certifications:
             fringilla vel. Ut euismod, sem sed vulputate venenatis,
             justo diam viverra velit, sed rhoncus leo leo eu justo.
             Suspendisse placerat risus ante, sed porta nisi blandit at.
-            
+
         - name: Microsoft Azure Fundamentals
           start: #2019
           end:
