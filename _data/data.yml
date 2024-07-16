@@ -142,17 +142,7 @@ experiences:
           - SC Clearance
           - Confidently deploy AWS Database Migration infrastructure and carry out bulk operations independently
           - The main resource responsible for all the data to a downstream consumer
-      - role: RPA Developer
-        time: 2020 - 2021
-        company: Capgemini
-        details: |
-           I started as a developer to create an RPA solution for the client, before moving to the live service team where we actively monitored, repaired, and improved all existing robots on the platform.
-          During this project I was approached by my reviewer who put me forward for the Junior Talent community, I was also placed on an accelerated learning path for my degree programme. 
-          On this project I developed an interest for DevOps and the cloud, I completed the AWS Cloud Practitioner certification alongside this work to open more opportunities for me to work in this field.
-          Key take aways
-          - Cloud Practitioner Certification
-          - BPSS Clearance
-          - JT community
+
 
 certifications:
       title: Certifications
