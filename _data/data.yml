@@ -45,13 +45,13 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Tech
+        - item: Technology - Like keeping up to date with latest technologies and trends
           link:
 
-        - item: Boxing
+        - item: Business - Have had a number of small side hustles in the past, interested in business and investor in companies
           link:
 
-        - item: Fitness
+        - item: Sports - Used to compete in elite level sport as a child, enjoy keeping fit and exercising.
           link:
 
 career-profile:
@@ -101,9 +101,10 @@ experiences:
             I had to ensure security, scalability and performance, integration with internal systems which involved working with a number of key stakeholders and wider teams in the business.
             Key take aways
             - Project Management
-            - Communication and Collaboration
-            - Solution Designing
-            - Technical Leadership
+            - Communication and Collaboration with clients
+            - Solution Designin and Technical Leadership
+            - Growing delivery and bringing in new business
+     
       - role: Platform Lead
         time: 2023 - 2024
         company: Capgemini
