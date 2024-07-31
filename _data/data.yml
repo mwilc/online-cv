@@ -62,7 +62,7 @@ career-profile:
       where I started as an RPA Developer and quickly transitioned to learning cloud and DevOps. 
       Completed a degree apprenticeship and have since worked on four public sector clients and supported delivery on a number of internal initiatives. 
       Currently providing expertise as Technical Architect / Platform Lead for an innovative data visualisation project on one of our 
-      high-profile public sector client. Proficient at developing and applying knowledge in cutting-edge technologies to deliver innovative 
+      high-profile public sector clients. Proficient at developing and applying knowledge in cutting-edge technologies to deliver innovative 
       solutions and drive operational excellence. A proactive learner committed to continuous improvement and 
       professional development. Excellent communicator and team player with strong problem-solving 
       skills and a passion for mentoring and developing junior talent.
@@ -96,7 +96,7 @@ experiences:
         company: Capgemini
         details: |
             After success in the previous platform role, I was asked if I'd like a step up in responsibilities to become the solution architect for the project.
-            Played a critical role in designing and oversseing the implementations of the technical solutions on the project. 
+            Played a critical role in designing and overseeing the implementations of the technical solutions on the project. 
             The role mainly focused around platform aspects, evaluating and recommending appropriate services, solutions and technologies for the platform.
             I had to ensure security, scalability and performance, integration with internal systems which involved working with a number of key stakeholders and wider teams in the business.
             Key take aways
@@ -110,7 +110,7 @@ experiences:
         details: |
           Worked as the platform lead to build and develop an Azure hosted platform to support cutting edge data visualisation
           for the health sector. Took over from a much senior colleage which was a big step up, and required me to develop not only my technical skills, but a number of soft skills including presentation, managerial, communication, time management etc. 
-          In this role I was tasked with designing, developing and deploying a system to allow our platform to be completely metadata driven, using a CMDB to drive everything that happens within out platform. 
+          In this role I was tasked with designing, developing and deploying a system to allow our platform to be completely metadata driven, using a CMDB to drive everything that happens within our platform. 
           Key take aways
           - Soft skill improvement
           - New technical competencies developed
@@ -135,10 +135,10 @@ experiences:
         details: |
           Worked on one of the largest AWS accounts as a DevOps engineer in data migration, we handled bulk data and delivered it to multiple downstream consumers across the organisation.
           The project used terraform to manage the migration infrastructure and Jenkins as the CI/CD tooling.
-          I supported multiple releases of data migrations, delivered presentations to winder stakeholders around the work we were doing, and was able to contribute my own ideas and suggestions to the project.
+          I supported multiple releases of data migrations, delivered presentations to wider stakeholders around the work we were doing, and was able to contribute my own ideas and suggestions to the project.
           Key take aways
           - Use of DMS, S3, SNS, RDS, CloudWatch, CLI
-          - Deployed AWS Database Migration infrastructure and carry out bulk operations independently
+          - Deployed AWS Database Migration infrastructure and carried out bulk operations independently
           - Became the main contact responsible for managing these migration releases
 
 
