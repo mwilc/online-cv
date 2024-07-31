@@ -187,33 +187,35 @@ certifications:
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Additional Contributions
     assignments:
       - title: Schools Outreach
-        link: "#hok"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        link: "#h"
+        tagline: "Organised and led assemblies at local schools for students approaching departure, 
+        explaining potential options for apprenticeships and work experience within the company, 
+        sharing personal experiences, and motivating students for upcoming exams."
 
       - title: Work Experience
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Responsible for reviewing work experience applications submitted by students, and participated in their assessment centre offering support and answeing any questions they have."
 
       - title: DevOps Community Lead
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Initiated and led efforts to gather and collaborate with DevOps colleagues across the business to identify areas of expertise, 
+        uncover potential areas for upskilling, and evaluate market demands in this area."
 
       - title: Cloud Compliance Automation
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "For my university dissertation I designed and developed a system, to automate cloud compliance resolution."
 
       - title: Metadata Driven Platform Deployment PoC
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Built a working PoC to support metadata driven cloud data platform deployments."
 
       - title: Mentorship
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Guided and supported junior colleagues across the business, 
+        supporting their professional growth and development through regular mentorship sessions and collaborative projects."
 
 
 oss:
