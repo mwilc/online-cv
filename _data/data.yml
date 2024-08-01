@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Matt Wilcox
     tagline: Cloud Architect
-    avatar: IMG_4624 2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: IMG_1903-2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: matthew.w.wilcox@gmail.com
@@ -45,10 +45,10 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Technology - Like keeping up to date with latest technologies and trends
+        - item: Technology - Like keeping up to date with latest technologies and trends.
           link:
 
-        - item: Business - Have had a number of small side hustles in the past, interested in business and investor in companies
+        - item: Business - Have had a number of small side hustles in the past, interested in business markets and investor in companies.
           link:
 
         - item: Sports - Used to compete in elite level sport as a child, enjoy keeping fit and exercising.
