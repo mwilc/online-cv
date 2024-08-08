@@ -1,5 +1,25 @@
-{% assign interests = site.data.data.sidebar.interests %}
+{% assign interests = site.data.data.interests %}
 {% if interests %}
+  {% if site.data.data.sidebar.interests %}
+  <div class="interests-container container-block">
+
+    <h2 class="container-block-title">
+      {{ interests.title }}
+    </h2>
+
+    {% for interest in interests.info %}
+    <div class="item">
+      <h4 class="degree">{{ interest.item }}</h4>
+      {% if interest.details %}
+      <div class="details">
+        {{ interest.details | markdownify }}
+      </div><!--//details-->
+      {% endif %}
+    </div><!--//item-->
+    {% endfor %}
+
+  </div><!--//interests-container-->
+  {% else %}
   <section class="section interests-section">
 
     <h2 class="section-title">
@@ -16,7 +36,7 @@
       <div class="meta">
 
         <div class="upper-row">
-          <h3 class="interest">{{ interest.item }}</h3>
+          <h3 class="degree">{{ interest.item }}</h3>
         </div><!--//upper-row-->
 
       </div><!--//meta-->
@@ -31,4 +51,5 @@
     {% endfor %}
 
   </section><!--//section-->
+  {% endif %}
 {% endif %}

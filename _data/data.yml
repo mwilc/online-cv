@@ -45,14 +45,16 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Technology - Like keeping up to date with latest technologies and trends.
-          link:
+        - item: Technology
+          details: |
+           Like keeping up to date with the latest technologies and trends.
+       - item: Business
+         details: |
+            Have had a number of small side hustles in the past, interested in business markets, and investor in companies.
+       - item: Sports
+         details: |
+            Used to compete in elite level sport as a child, enjoy keeping fit and exercising.
 
-        - item: Business - Have had a number of small side hustles in the past, interested in business markets and investor in companies.
-          link:
-
-        - item: Sports - Used to compete in elite level sport as a child, enjoy keeping fit and exercising.
-          link:
 
 career-profile:
     title: Career Profile
