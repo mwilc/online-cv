@@ -1,0 +1,55 @@
+{% assign interests = site.data.data.interests %}
+{% if interests %}
+  {% if site.data.data.sidebar.interests %}
+  <div class="interests-container container-block">
+
+    <h2 class="container-block-title">
+      {{ interests.title }}
+    </h2>
+
+    {% for interest in interests.info %}
+    <div class="item">
+      <h4 class="degree">{{ interest.item }}</h4>
+      {% if interest.details %}
+      <div class="details">
+        {{ interest.details | markdownify }}
+      </div><!--//details-->
+      {% endif %}
+    </div><!--//item-->
+    {% endfor %}
+
+  </div><!--//interests-container-->
+  {% else %}
+  <section class="section interests-section">
+
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-heart fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ interests.title }}
+    </h2>
+
+    {% for interest in interests.info %}
+    <div class="item">
+
+      <div class="meta">
+
+        <div class="upper-row">
+          <h3 class="degree">{{ interest.item }}</h3>
+        </div><!--//upper-row-->
+
+      </div><!--//meta-->
+
+      {% if interest.details %}
+      <div class="details">
+        {{ interest.details | markdownify }}
+      </div><!--//details-->
+      {% endif %}
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </section><!--//section-->
+  {% endif %}
+{% endif %}
