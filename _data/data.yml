@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Matt Wilcox
     tagline: Cloud Architect
-    avatar: IMG_1903-2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: pic.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: matthew.w.wilcox@gmail.com
@@ -59,7 +59,7 @@ career-profile:
     summary: |
       Dedicated and motivated young professional with a strong background in technology solutions and a proven track record 
       of success in diverse roles. Finished A levels and secured a degree apprenticeship at Capgemini, 
-      where I started as an RPA Developer and quickly transitioned to learning cloud and DevOps. 
+      where I started as an RPA Developer and quickly transitioned to learning Cloud and DevOps. 
       Completed a degree apprenticeship and have since worked on four public sector clients and supported delivery on a number of internal initiatives. 
       Currently providing expertise as Technical Architect / Platform Lead for an innovative data visualisation project on one of our 
       high-profile public sector clients. Proficient at developing and applying knowledge in cutting-edge technologies to deliver innovative 
@@ -92,32 +92,18 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Technical Architect
-        time: 2024 - Present
+      - role: DevOps Engineer
+        time: 2021 - 2022
         company: Capgemini
         details: |
-            After success in the previous platform role, I was asked if I'd like a step up in responsibilities to become the solution architect for the project.
-            Played a critical role in designing and overseeing the implementations of the technical solutions on the project. 
-            The role mainly focused around platform aspects, evaluating and recommending appropriate services, solutions and technologies for the platform.
-            I had to ensure security, scalability and performance, integration with internal systems which involved working with a number of key stakeholders and wider teams in the business.
-            Key take aways
-            - Project Management
-            - Communication and Collaboration with clients
-            - Solution Designin and Technical Leadership
-            - Growing delivery and bringing in new business
-     
-      - role: Platform Lead
-        time: 2023 - 2024
-        company: Capgemini
-        details: |
-          Worked as the platform lead to build and develop an Azure hosted platform to support cutting edge data visualisation
-          for the health sector. Took over from a much senior colleage which was a big step up, and required me to develop not only my technical skills, but a number of soft skills including presentation, managerial, communication, time management etc. 
-          In this role I was tasked with designing, developing and deploying a system to allow our platform to be completely metadata driven, using a CMDB to drive everything that happens within our platform. 
+          Worked on one of the largest AWS accounts as a DevOps engineer in data migration, we handled bulk data and delivered it to multiple downstream consumers across the organisation.
+          The project used terraform to manage the migration infrastructure and Jenkins as the CI/CD tooling.
+          I supported multiple releases of data migrations, delivered presentations to wider stakeholders around the work we were doing, and was able to contribute my own ideas and suggestions to the project.
           Key take aways
-          - Soft skill improvement
-          - New technical competencies developed
-          - Developing an automated metadata driven platform 
-          - Delivering and explaining the work to senior client stakeholders 
+          - Use of DMS, S3, SNS, RDS, CloudWatch, CLI
+          - Deployed AWS Database Migration infrastructure and carried out bulk operations independently
+          - Became the main contact responsible for managing these migration releases
+
       - role: Platform Engineer
         time: 2022 - 2023
         company: Capgemini
@@ -131,18 +117,33 @@ experiences:
           - Responsible for the management of entire AWS platform
           - Implented DevOps improvements for the platform
           - Acted as team lead managing stakeholder relationships effectively
-      - role: DevOps Engineer
-        time: 2021 - 2022
+
+      - role: Platform Lead
+        time: 2023 - 2024
         company: Capgemini
         details: |
-          Worked on one of the largest AWS accounts as a DevOps engineer in data migration, we handled bulk data and delivered it to multiple downstream consumers across the organisation.
-          The project used terraform to manage the migration infrastructure and Jenkins as the CI/CD tooling.
-          I supported multiple releases of data migrations, delivered presentations to wider stakeholders around the work we were doing, and was able to contribute my own ideas and suggestions to the project.
+          Worked as the platform lead to build and develop an Azure hosted platform to support cutting edge data visualisation
+          for the health sector. Took over from a much senior colleage which was a big step up, and required me to develop not only my technical skills, but a number of soft skills including presentation, managerial, communication, time management etc. 
+          In this role I was tasked with designing, developing and deploying a system to allow our platform to be completely metadata driven, using a CMDB to drive everything that happens within our platform. 
           Key take aways
-          - Use of DMS, S3, SNS, RDS, CloudWatch, CLI
-          - Deployed AWS Database Migration infrastructure and carried out bulk operations independently
-          - Became the main contact responsible for managing these migration releases
+          - Soft skill improvement
+          - New technical competencies developed
+          - Developing an automated metadata driven platform 
+          - Delivering and explaining the work to senior client stakeholders 
 
+      - role: Technical Architect
+        time: 2024 - Present
+        company: Capgemini
+        details: |
+            After success in the previous platform role, I was asked if I'd like a step up in responsibilities to become the solution architect for the project.
+            Played a critical role in designing and overseeing the implementations of the technical solutions on the project. 
+            The role mainly focused around platform aspects, evaluating and recommending appropriate services, solutions and technologies for the platform.
+            I had to ensure security, scalability and performance, integration with internal systems which involved working with a number of key stakeholders and wider teams in the business.
+            Key take aways
+            - Project Management
+            - Communication and Collaboration with clients
+            - Solution Designin and Technical Leadership
+            - Growing delivery and bringing in new business
 
 certifications:
       title: Certifications
@@ -188,8 +189,7 @@ certifications:
 
 projects:
     title: Projects
-    intro: >
-      Additional Contributions
+    intro: 
     assignments:
       - title: Schools Outreach
         link: "#h"
