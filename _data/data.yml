@@ -149,15 +149,15 @@ experiences:
         time: 2025 - Present
         company: Capgemini
         details: |
-            After success in the previous platform role, I was asked if I'd like a step up in responsibilities to become the solution architect for the project.
-            Played a critical role in designing and overseeing the implementations of the technical solutions on the project. 
-            The role mainly focused around platform aspects, evaluating and recommending appropriate services, solutions and technologies for the platform.
-            I had to ensure security, scalability and performance, integration with internal systems which involved working with a number of key stakeholders and wider teams in the business.
+            Operating as the Devops Lead on a multi-environment AWS-based data platform using the medallion architecture pattern. 
+            The project aims to build a scalable, secure, and auditable data ecosystem for a high-profile client in the retail sector.
+            I led the support and improvement of CI/CD processes, managed platform infrastructure, and ensured successful releases across 3 environments. 
+            Took ownership of the deployment lifecycle during a critical release period, becoming the gatekeeper for production readiness and playing a key role in deployment planning, validation, and stakeholder communication.              
             Key take aways
-            - Project Management
-            - Communication and Collaboration with clients
-            - Solution Designin and Technical Leadership
-            - Growing delivery and bringing in new business
+            - Led complex multi-environment deployments
+            - Strengthened DevOps practises on the project
+            - Navigating difficult clients
+            - Took ownership of and improved a fragmenred platform
 
 certifications:
       title: Certifications
