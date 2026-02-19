@@ -18,7 +18,7 @@
 
   .page {
     width: 794px;
-    height: 1123px;
+    height: 100vh;
     margin: 0 auto;
     padding: 48px 52px 48px 52px;
     background: #F7F6F3;
@@ -271,6 +271,17 @@
     body { background: #F7F6F3; }
     .page { box-shadow: none; }
   }
+ @media (max-width: 800px) {
+    .page { padding: 32px 24px; }
+    .header { flex-direction: column; gap: 12px; }
+    .header-right { text-align: left; }
+    .offerings { grid-template-columns: 1fr; }
+    .steps { flex-direction: column; }
+    .guarantee { flex-direction: column; gap: 12px; text-align: center; }
+    .guarantee .g-right { text-align: center; }
+    .footer { flex-direction: column; gap: 12px; }
+    .footer-right { text-align: left; }
+}
 </style>
 </head>
 <body>
@@ -300,7 +311,7 @@
     </div>
     <div class="offer">
       <h3><span>⚙️</span> Process Automation</h3>
-      <p>Take the time consuming, repetitive tasks that your team does every day to happen (almost!) automatically and remove manual errors — the constant chasing up, data entry, spreadsheet management etc.</p>
+      <p>Take the repetitive, time consuming tasks that your team does every day, to happen (almost!) automatically - the constant chasing up, data entry, spreadsheet management etc.</p>
     </div>
     <div class="offer">
       <h3><span>📊</span> Systems &amp; Integration</h3>
