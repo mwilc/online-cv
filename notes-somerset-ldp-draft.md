@@ -135,3 +135,30 @@ The goal: **2-3 sentences max** describing the project/context, then **clean bul
 2. Remove filler words ("Key take aways", "I was given an opportunity", "I was tasked with")
 3. Lead with impact, not responsibilities
 4. Most recent roles get most detail, older roles get compressed
+
+---
+
+## Interests — Proposed Improvements
+
+**Current:** Generic, wordy, reads like padding.
+
+**Proposed:**
+```yaml
+    interests:
+      title: Interests
+      info:
+        - item: AI & Emerging Tech - Exploring agentic AI workflows, LLMs, and how they reshape software delivery.
+          link:
+
+        - item: Business & Investing - Active investor, interested in markets and have run a number of side projects.
+          link:
+
+        - item: Sport & Fitness - Former elite-level athlete, still training regularly.
+          link:
+```
+
+**Why:**
+- "Technology" is too vague for someone whose headline skill is now AI — call it out specifically
+- Shorter, punchier — removes filler like "Like keeping up to date with latest technologies and trends"
+- "Former elite-level athlete" is more impactful than explaining you did sport as a child
+- "Active investor" sounds more credible than "interested in business markets"
