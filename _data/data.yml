@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Matt Wilcox
-    tagline: DevOps Lead
+    tagline: Senior Platform Engineer
     avatar: pic.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -45,13 +45,13 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Technology - Like keeping up to date with latest technologies and trends.
+        - item: AI & Emerging Tech - Exploring agentic AI workflows, LLMs, and how they reshape software delivery.
           link:
 
-        - item: Business - Have had a number of small side hustles in the past, interested in business markets and investor in companies.
+        - item: Business & Investing - Active investor, interested in markets and have run a number of side projects.
           link:
 
-        - item: Sports - Used to compete in elite level sport as a child, enjoy keeping fit and exercising.
+        - item: Sport & Fitness - Former elite-level athlete, still training regularly.
           link:
 
 career-profile:
@@ -61,12 +61,9 @@ career-profile:
       Finished A levels and secured a degree apprenticeship at Capgemini, where I started as an RPA Developer 
       and quickly transitioned to Cloud and DevOps. Completed a degree apprenticeship and have since worked across 
       multiple public sector clients and supported delivery on a number of internal initiatives. Now operating as 
-      Senior Platform Architect at Kainos, leading innovative AI-first delivery approaches — most recently using 
+      Senior Platform Engineer at Kainos, leading innovative AI-first delivery approaches — most recently using 
       spec-driven AI development to design and deliver a multi-account AWS healthcare data platform from scratch, 
-      shipping multiple major milestones and satisfying 130+ requirements. Proficient at developing and applying knowledge in cutting-edge 
-      technologies to deliver innovative solutions and drive operational excellence. A proactive learner committed 
-      to continuous improvement and professional development. Excellent communicator and team player with strong 
-      problem-solving skills and a passion for mentoring and developing junior talent.
+      shipping multiple major milestones and satisfying 130+ requirements.
 education:
     title: Education
     info:
@@ -74,112 +71,71 @@ education:
         university: Aston University
         time: 2019 - 2024
         details: |
-          Completed a part-time BSc degree sponsored by Capgemini, undertaken concurrently with full-time employment. 
-          The curriculum encompassed a diverse array of subjects, ranging from technical computer science modules to business-focused and consulting topics.
-          Notably, my dissertation project involved the design, development, and presentation of an automation solution in Azure. 
-          This solution facilitated the scanning of a platform for potential non-compliant resources, subsequently automating the ticket creation process in Azure DevOps to address these issues efficiently.
+          Completed a part-time BSc degree sponsored by Capgemini, undertaken concurrently with full-time employment.
+          Dissertation involved designing and developing an automation solution in Azure to scan platforms for non-compliant resources and automate ticket creation in Azure DevOps.
 
 experiences:
     title: Experiences
     info:
-      - role: Senior Platform Architect
+      - role: Senior Platform Engineer
         time: 2026 - Present
         company: Kainos
         details: |
-            Led a spec-driven AI development spike to design, build and deliver a multi-account AWS healthcare data platform for an NHS client from the ground up.
-            Pioneered an innovative AI-first delivery approach using the GSD (Get Shit Done) framework — a structured methodology that leverages AI agents to autonomously plan, execute, verify, and ship infrastructure at unprecedented velocity.
-            Through this approach, delivered a number of major milestones resulting in 500+ commits and 130+ requirements satisfied — all orchestrated through AI-driven spec-driven development.
-            The platform ingests sensitive patient data from healthcare providers, processes it through a medallion architecture (landing → bronze), and anonymises PII using Fernet encryption and a Master Patient Index across segregated AWS accounts.
-            Key take aways
-            - Pioneered AI-driven infrastructure delivery using spec-driven development (GSD framework) — AI agents autonomously planned phases, executed code, ran quality gates, and verified outcomes with minimal human intervention
-            - Demonstrated that AI-augmented delivery can produce production-grade, security-compliant infrastructure at 5-10x the velocity of traditional approaches
-            - Architected a multi-account AWS platform from scratch: Terraform IaC, GitHub Actions CI/CD with OIDC, 4 LZA accounts, ephemeral environment isolation
-            - Built reusable Terraform modules for composite pipelines (Step Functions + Glue), KMS encryption, landing zone ingress, and S3 event triggers
-            - Delivered end-to-end data pipeline orchestration (ingest → enrich → load) across dual AWS accounts with cross-account encryption and EventBridge automation
-            - Implemented security-first patterns: Checkov gating (HIGH+ severity), gitleaks scanning, Fernet PII anonymisation, NAT-free VPC endpoints, cross-account KMS
-            - Established engineering standards: conventional commits, Docker-based tooling, automated documentation generation, SemVer releases, and quality-gated CI/CD
+            Led a spec-driven AI development spike to design and deliver a multi-account AWS healthcare data platform from the ground up. Pioneered an AI-first delivery approach using structured agent orchestration to autonomously plan, execute, and verify infrastructure — delivering 500+ commits and 130+ requirements through AI-driven development.
+            - Pioneered AI-driven infrastructure delivery — agents autonomously planned, coded, tested, and verified with minimal human intervention
+            - Architected multi-account AWS platform: Terraform, GitHub Actions CI/CD with OIDC, ephemeral environments, cross-account encryption
+            - Delivered E2E data pipeline orchestration (Step Functions + Glue) with PII anonymisation across segregated accounts
+            - Implemented security-first patterns: Checkov gating, gitleaks, Fernet encryption, NAT-free VPC endpoints, cross-account KMS
 
       - role: DevOps Lead
         time: 2025 - 2026
         company: Capgemini
         details: |
-            Operating as the Devops Lead on a multi-environment AWS-based data platform using the medallion architecture pattern. 
-            The project aims to build a scalable, secure, and auditable data ecosystem for a high-profile client in the retail sector.
-            I led the support and improvement of CI/CD processes, managed platform infrastructure, and ensured successful releases across 3 environments. 
-            Took ownership of the deployment lifecycle during a critical release period, becoming the gatekeeper for production readiness and playing a key role in deployment planning, validation, and stakeholder communication.              
-            Key take aways
-            - Led complex multi-environment deployments
-            - Strengthened DevOps practises on the project
-            - Navigating difficult clients
+            Led DevOps on a multi-environment AWS data platform using the medallion architecture for a retail sector client. Took ownership of the deployment lifecycle, becoming the gatekeeper for production readiness across 3 environments.
+            - Led complex multi-environment deployments and release planning
+            - Strengthened DevOps practices and CI/CD processes
             - Took ownership of and improved a fragmented platform
 
       - role: Technical Architect
         time: 2024 - 2025
         company: Capgemini
         details: |
-            After success in the previous platform role, I was asked if I'd like a step up in responsibilities to become the solution architect for the project.
-            Played a critical role in designing and overseeing the implementations of the technical solutions on the project. 
-            The role mainly focused around platform aspects, evaluating and recommending appropriate services, solutions and technologies for the platform.
-            I had to ensure security, scalability and performance, integration with internal systems which involved working with a number of key stakeholders and wider teams in the business.
-            Key take aways
-            - Project Management
-            - Communication and Collaboration with clients
-            - Solution Designin and Technical Leadership
+            Stepped up to solution architect for a data visualisation platform, designing technical solutions and evaluating services, technologies and integrations. Worked closely with senior client stakeholders and wider business teams.
+            - Solution design and technical leadership
+            - Communication and collaboration with clients
             - Growing delivery and bringing in new business
 
       - role: Platform Lead
         time: 2023 - 2024
         company: Capgemini
         details: |
-          Worked as the platform lead to build and develop an Azure hosted platform to support cutting edge data visualisation
-          for the health sector. Took over from a much senior colleage which was a big step up, and required me to develop not only my technical skills, but a number of soft skills including presentation, managerial, communication, time management etc. 
-          In this role I was tasked with designing, developing and deploying a system to allow our platform to be completely metadata driven, using a CMDB to drive everything that happens within our platform. 
-          Key take aways
-          - Soft skill improvement
-          - New technical competencies developed
-          - Developing an automated metadata driven platform 
-          - Delivering and explaining the work to senior client stakeholders 
+            Built and developed an Azure-hosted platform for cutting-edge data visualisation in the health sector. Designed and deployed a metadata-driven system using a CMDB to drive all platform operations.
+            - Developed an automated metadata-driven platform
+            - Delivered and explained technical work to senior client stakeholders
+            - Significant step-up in soft skills: presentation, management, communication
 
       - role: Platform Engineer
         time: 2022 - 2023
         company: Capgemini
         details: |
-          Part of the infrastructure team responsible for maintenance, upkeeping and development of the AWS platform.
-          The platform hosted a data visualisation solution for a large government department, data from around the organisation was onboarded, engineered, and then visualised in Qlik. 
-          My role as DevOps advisor was to, identify, address and solve issues related to infrastructure, CI/CD, processes, ways of working, coding base, cost, and security.
-          I was given an opportunity to lead the team while our manager was on leave, guiding and motivating the team to ensure project delivery remained on track, and all stakeholders were happy.
-          Key take aways
-          - Large variety of AWS services worked with
-          - Responsible for the management of entire AWS platform
-          - Implented DevOps improvements for the platform
-          - Acted as team lead managing stakeholder relationships effectively
+            Maintained and developed the AWS platform hosting a data visualisation solution for a large government department. Identified and solved issues across infrastructure, CI/CD, security, and cost.
+            - Managed the entire AWS platform end-to-end
+            - Implemented DevOps improvements
+            - Acted as team lead during manager's absence
 
       - role: DevOps Engineer
         time: 2021 - 2022
         company: Capgemini
         details: |
-          Worked on one of the largest AWS accounts as a DevOps engineer in data migration, we handled bulk data and delivered it to multiple downstream consumers across the organisation.
-          The project used terraform to manage the migration infrastructure and Jenkins as the CI/CD tooling.
-          I supported multiple releases of data migrations, delivered presentations to wider stakeholders around the work we were doing, and was able to contribute my own ideas and suggestions to the project.
-          Key take aways
-          - Use of DMS, S3, SNS, RDS, CloudWatch, CLI
-          - Deployed AWS Database Migration infrastructure and carried out bulk operations independently
-          - Became the main contact responsible for managing these migration releases
+            Worked on one of the largest AWS accounts as a DevOps engineer in data migration, delivering bulk data to multiple downstream consumers using Terraform and Jenkins.
+            - Deployed AWS Database Migration infrastructure independently
+            - Became the main contact for managing migration releases
+            - Delivered presentations to wider stakeholders
 
 projects:
     title: Projects
     intro: 
     assignments:
-      - title: Schools Outreach
-        link: "#h"
-        tagline: "Organised and led assemblies at local schools for students approaching departure, 
-        explaining potential options for apprenticeships and work experience within the company, 
-        sharing personal experiences, and motivating students for upcoming exams."
-
-      - title: Work Experience
-        link: "#"
-        tagline: "Responsible for reviewing work experience applications submitted by students, and participated in their assessment centre offering support and answeing any questions they have."
-
       - title: DevOps Community Lead
         link: "#"
         tagline: "Initiated and led efforts to gather and collaborate with DevOps colleagues across the business to identify areas of expertise, 
