@@ -57,16 +57,16 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Dedicated and motivated young professional with a strong background in technology solutions and a proven track record 
-      of success in diverse roles. Finished A levels and secured a degree apprenticeship at Capgemini, 
-      where I started as an RPA Developer and quickly transitioned to learning Cloud and DevOps. 
-      Completed a degree apprenticeship and have since worked on four public sector clients and supported delivery on a number of internal initiatives. 
-      Currently providing expertise as Technical Architect / Platform Lead for an innovative data visualisation project on one of our 
-      high-profile public sector clients. Proficient at developing and applying knowledge in cutting-edge technologies to deliver innovative 
-      solutions and drive operational excellence. Experience in navigating challenges to better understand client needs and deliver value to engagements.
-      A proactive learner committed to continuous improvement and 
-      professional development. Excellent communicator and team player with strong problem-solving 
-      skills and a passion for mentoring and developing junior talent.
+      Dedicated and motivated professional with a strong background in cloud infrastructure, DevOps, and AI-driven delivery.
+      Finished A levels and secured a degree apprenticeship at Capgemini, where I started as an RPA Developer 
+      and quickly transitioned to Cloud and DevOps. Completed a degree apprenticeship and have since worked across 
+      multiple public sector clients and supported delivery on a number of internal initiatives. Now operating as 
+      Senior Platform Architect at Kainos, leading innovative AI-first delivery approaches — most recently using 
+      spec-driven AI development to design and deliver a multi-account AWS healthcare data platform from scratch, 
+      shipping multiple major milestones and satisfying 130+ requirements. Proficient at developing and applying knowledge in cutting-edge 
+      technologies to deliver innovative solutions and drive operational excellence. A proactive learner committed 
+      to continuous improvement and professional development. Excellent communicator and team player with strong 
+      problem-solving skills and a passion for mentoring and developing junior talent.
 education:
     title: Education
     info:
@@ -92,6 +92,23 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: Senior Platform Architect
+        time: 2026 - Present
+        company: Kainos
+        details: |
+            Led a spec-driven AI development spike to design, build and deliver a multi-account AWS healthcare data platform for an NHS client from the ground up.
+            Pioneered an innovative AI-first delivery approach using the GSD (Get Shit Done) framework — a structured methodology that leverages AI agents to autonomously plan, execute, verify, and ship infrastructure at unprecedented velocity.
+            Through this approach, delivered a number of major milestones resulting in 500+ commits and 130+ requirements satisfied — all orchestrated through AI-driven spec-driven development.
+            The platform ingests sensitive patient data from healthcare providers, processes it through a medallion architecture (landing → bronze), and anonymises PII using Fernet encryption and a Master Patient Index across segregated AWS accounts.
+            Key take aways
+            - Pioneered AI-driven infrastructure delivery using spec-driven development (GSD framework) — AI agents autonomously planned phases, executed code, ran quality gates, and verified outcomes with minimal human intervention
+            - Demonstrated that AI-augmented delivery can produce production-grade, security-compliant infrastructure at 5-10x the velocity of traditional approaches
+            - Architected a multi-account AWS platform from scratch: Terraform IaC, GitHub Actions CI/CD with OIDC, 4 LZA accounts, ephemeral environment isolation
+            - Built reusable Terraform modules for composite pipelines (Step Functions + Glue), KMS encryption, landing zone ingress, and S3 event triggers
+            - Delivered end-to-end data pipeline orchestration (ingest → enrich → load) across dual AWS accounts with cross-account encryption and EventBridge automation
+            - Implemented security-first patterns: Checkov gating (HIGH+ severity), gitleaks scanning, Fernet PII anonymisation, NAT-free VPC endpoints, cross-account KMS
+            - Established engineering standards: conventional commits, Docker-based tooling, automated documentation generation, SemVer releases, and quality-gated CI/CD
+
       - role: DevOps Engineer
         time: 2021 - 2022
         company: Capgemini
