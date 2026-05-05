@@ -1,164 +1,134 @@
-# CV Noise Reduction Plan
-
-## Already Done
-
-- [x] Removed phone number
-- [x] Removed certifications section entirely
-- [x] Updated skills (Python, Terraform, AWS, DevOps & Platform Engineering, Spec-Driven Development, Agentic AI Development, IDPs, Data Platforms, MS Azure)
-- [x] Removed college and school from education (kept BSc only)
+# CV Refinement Draft — Final Touches
 
 ---
 
-## Remaining: Reduce Noise in Experience Entries
+## Career Profile — Draft (less waffly, more impact, no numbers)
 
-The goal: **2-3 sentences max** describing the project/context, then **clean bullet points** for achievements. No "Key take aways" header needed — just the bullets.
-
-### Senior Platform Architect (Kainos) — TRIM
-
-**Current:** 4 paragraphs + 7 bullets (very long)
-
-**Proposed:**
 ```yaml
-      - role: Senior Platform Architect
-        time: 2026 - Present
-        company: Kainos
-        details: |
-            Led a spec-driven AI development spike to design and deliver a multi-account AWS healthcare data platform from the ground up. Pioneered an AI-first delivery approach using structured agent orchestration to autonomously plan, execute, and verify infrastructure — delivering 500+ commits and 130+ requirements through AI-driven development.
-            - Pioneered AI-driven infrastructure delivery — agents autonomously planned, coded, tested, and verified with minimal human intervention
-            - Architected multi-account AWS platform: Terraform, GitHub Actions CI/CD with OIDC, ephemeral environments, cross-account encryption
-            - Delivered E2E data pipeline orchestration (Step Functions + Glue) with PII anonymisation across segregated accounts
-            - Implemented security-first patterns: Checkov gating, gitleaks, Fernet encryption, NAT-free VPC endpoints, cross-account KMS
+career-profile:
+    title: Career Profile
+    summary: |
+      Cloud infrastructure and AI delivery specialist with a track record of designing and shipping production platforms 
+      across healthcare, government, and retail sectors. Started as an RPA Developer on a degree apprenticeship at Capgemini, 
+      rapidly progressing through DevOps, platform engineering, and technical architecture roles. Now operating as Senior 
+      Platform Engineer at Kainos — pioneering AI-first infrastructure delivery using spec-driven development to build 
+      secure, multi-account AWS platforms autonomously.
 ```
 
-### DevOps Lead (Capgemini) — TRIM
-
-**Current:** 4 sentences + 4 bullets
-
-**Proposed:**
-```yaml
-      - role: DevOps Lead
-        time: 2025 - 2026
-        company: Capgemini
-        details: |
-            Led DevOps on a multi-environment AWS data platform using the medallion architecture for a retail sector client. Took ownership of the deployment lifecycle, becoming the gatekeeper for production readiness across 3 environments.
-            - Led complex multi-environment deployments and release planning
-            - Strengthened DevOps practices and CI/CD processes
-            - Took ownership of and improved a fragmented platform
-```
-
-### Technical Architect (Capgemini) — TRIM
-
-**Current:** 4 sentences + 4 bullets
-
-**Proposed:**
-```yaml
-      - role: Technical Architect
-        time: 2024 - 2025
-        company: Capgemini
-        details: |
-            Stepped up to solution architect for a data visualisation platform, designing technical solutions and evaluating services, technologies and integrations. Worked closely with senior client stakeholders and wider business teams.
-            - Solution design and technical leadership
-            - Communication and collaboration with clients
-            - Growing delivery and bringing in new business
-```
-
-### Platform Lead (Capgemini) — TRIM
-
-**Current:** 3 sentences + 4 bullets
-
-**Proposed:**
-```yaml
-      - role: Platform Lead
-        time: 2023 - 2024
-        company: Capgemini
-        details: |
-            Built and developed an Azure-hosted platform for cutting-edge data visualisation in the health sector. Designed and deployed a metadata-driven system using a CMDB to drive all platform operations.
-            - Developed an automated metadata-driven platform
-            - Delivered and explained technical work to senior client stakeholders
-            - Significant step-up in soft skills: presentation, management, communication
-```
-
-### Platform Engineer (Capgemini) — TRIM
-
-**Current:** 4 sentences + 4 bullets
-
-**Proposed:**
-```yaml
-      - role: Platform Engineer
-        time: 2022 - 2023
-        company: Capgemini
-        details: |
-            Maintained and developed the AWS platform hosting a data visualisation solution for a large government department. Identified and solved issues across infrastructure, CI/CD, security, and cost.
-            - Managed the entire AWS platform end-to-end
-            - Implemented DevOps improvements
-            - Acted as team lead during manager's absence
-```
-
-### DevOps Engineer (Capgemini) — TRIM
-
-**Current:** 3 sentences + 3 bullets
-
-**Proposed:**
-```yaml
-      - role: DevOps Engineer
-        time: 2021 - 2022
-        company: Capgemini
-        details: |
-            Worked on one of the largest AWS accounts as a DevOps engineer in data migration, delivering bulk data to multiple downstream consumers using Terraform and Jenkins.
-            - Deployed AWS Database Migration infrastructure independently
-            - Became the main contact for managing migration releases
-            - Delivered presentations to wider stakeholders
-```
+**Why this works:**
+- Opens with what you ARE, not generic filler ("dedicated and motivated")
+- Sector breadth shows range (healthcare, government, retail)
+- Career arc is clear in one sentence
+- Ends on the current headline (AI-first delivery)
+- No numbers — those are in the experience section
+- No soft-skill padding — that's implied by progression
 
 ---
 
-## Other Noise to Address
+## Interests — Format Change
 
-### Career Profile
-- Currently good but slightly long. Could trim the last 2 sentences ("A proactive learner..." and "Excellent communicator...") — the CV itself demonstrates these.
+The `interests_new.html` template already exists in `_includes/` and supports title + details (lighter subtitle text), same as education. To use it:
 
-### Sidebar Tagline
-- Still says "DevOps Lead" — should update to "Senior Platform Architect"
+1. Change the sidebar include from `interests.html` → `interests_new.html`
+2. Add a `details` field to each interest in the data
 
-### Projects Section
-- Consider trimming to 3-4 most impactful (drop "Work Experience" and "Schools Outreach" — good but less relevant now)
-- Keep: DevOps Community Lead, Cloud Compliance Automation, Metadata Driven Platform PoC, Mentorship
+**OR** simpler: keep using the sidebar interests but add a main-body `interests` section with the new format. The `interests_new.html` template checks `site.data.data.interests` (top-level, not sidebar).
 
-### Education
-- BSc description is 4 lines — could trim to 2
-
----
-
-## Summary of Approach
-
-1. Each role: **2-3 sentence context** → **3-4 punchy bullets** (no headers, no fluff)
-2. Remove filler words ("Key take aways", "I was given an opportunity", "I was tasked with")
-3. Lead with impact, not responsibilities
-4. Most recent roles get most detail, older roles get compressed
-
----
-
-## Interests — Proposed Improvements
-
-**Current:** Generic, wordy, reads like padding.
-
-**Proposed:**
+**Proposed data structure (top-level, not under sidebar):**
 ```yaml
-    interests:
-      title: Interests
-      info:
-        - item: AI & Emerging Tech - Exploring agentic AI workflows, LLMs, and how they reshape software delivery.
-          link:
-
-        - item: Business & Investing - Active investor, interested in markets and have run a number of side projects.
-          link:
-
-        - item: Sport & Fitness - Former elite-level athlete, still training regularly.
-          link:
+interests:
+    title: Interests
+    info:
+      - item: AI & Emerging Tech
+        details: |
+          Exploring agentic AI workflows, LLMs, and how they reshape software delivery.
+      - item: Business & Investing
+        details: |
+          Active investor, interested in markets and have run a number of side projects.
+      - item: Sport & Fitness
+        details: |
+          Former elite-level athlete, still training regularly.
 ```
 
-**Why:**
-- "Technology" is too vague for someone whose headline skill is now AI — call it out specifically
-- Shorter, punchier — removes filler like "Like keeping up to date with latest technologies and trends"
-- "Former elite-level athlete" is more impactful than explaining you did sport as a child
-- "Active investor" sounds more credible than "interested in business markets"
+**Option:** Keep sidebar interests simple (just titles) OR move interests to main body with the richer format. Your call on placement.
+
+---
+
+## Projects Section — Brainstorm
+
+### The Problem
+"Projects" sounds like portfolio pieces / side projects. For someone at your level it should convey **impact and leadership** — things you've driven beyond your day job.
+
+### Naming Options
+
+| Name | Vibe |
+|------|------|
+| **Contributions & Initiatives** | Professional, shows proactivity |
+| **Impact & Leadership** | Bold, CV-friendly |
+| **Beyond the Day Job** | Informal, maybe too casual |
+| **Initiatives** | Clean, simple |
+| **Community & Innovation** | Groups the two themes |
+| **Leadership & Innovation** | Strong, senior-sounding |
+
+**My recommendation:** **"Initiatives"** or **"Community & Innovation"** — clean, doesn't sound like hobby projects.
+
+### Content Grouping
+
+Rather than a flat list, think in categories:
+
+**Community & People:**
+- DevOps Community Lead — built cross-business DevOps community
+- Apprentice Mentorship — guided junior colleagues through structured development
+- Schools Outreach — inspired the next generation through talks and assemblies
+
+**Technical Innovation:**
+- AI Spec-Driven Development — pioneered and validated agentic AI delivery methodology
+- Cloud Compliance Automation — dissertation: automated compliance scanning and remediation in Azure
+- Metadata-Driven Platform PoC — built a working PoC for config-driven cloud deployments
+
+### Proposed Draft
+
+```yaml
+projects:
+    title: Initiatives
+    intro: 
+    assignments:
+      - title: AI Spec-Driven Delivery
+        link: "#"
+        tagline: "Pioneered and validated a structured AI agent methodology for autonomous infrastructure delivery — proving production-grade outcomes with security and compliance gating."
+
+      - title: DevOps Community
+        link: "#"
+        tagline: "Founded and led a cross-business DevOps community to share expertise, identify upskilling opportunities, and align with market demands."
+
+      - title: Mentorship & Apprentice Development
+        link: "#"
+        tagline: "Ongoing mentorship of junior engineers and apprentices — structured sessions, pair programming, and career guidance."
+
+      - title: Cloud Compliance Automation
+        link: "#"
+        tagline: "University dissertation — designed and built an automated compliance scanning and remediation system in Azure."
+
+      - title: Metadata-Driven Platform PoC
+        link: "#"
+        tagline: "Built a working proof-of-concept for configuration-driven cloud data platform deployments."
+```
+
+**What changed:**
+- "AI Spec-Driven Delivery" is now the top item (most impressive, most recent)
+- Mentorship expanded to include apprentice angle
+- Schools Outreach dropped (less relevant at senior level)
+- Work Experience dropped
+- Titles are cleaner and more impactful
+- Taglines are one punchy sentence each
+
+---
+
+## Summary of Changes to Apply
+
+| Change | Status |
+|--------|--------|
+| Skills percentages varied | ✅ Applied |
+| Career profile rewrite | 📝 Draft above — awaiting approval |
+| Interests format (title + subtitle) | 📝 Draft above — needs decision on sidebar vs main body |
+| Projects → Initiatives (rename + content) | 📝 Draft above — awaiting approval |

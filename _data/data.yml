@@ -45,25 +45,26 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: AI & Emerging Tech - Exploring agentic AI workflows, LLMs, and how they reshape software delivery.
-          link:
+        - item: AI & Emerging Tech
+          details: |
+            Exploring agentic AI workflows, LLMs, and how they reshape software delivery.
 
-        - item: Business & Investing - Active investor, interested in markets and have run a number of side projects.
-          link:
+        - item: Business & Investing
+          details: |
+            Active investor, interested in markets and have run a number of side projects.
 
-        - item: Sport & Fitness - Former elite-level athlete, still training regularly.
-          link:
+        - item: Sport & Fitness
+          details: |
+            Former elite-level athlete, still training regularly.
 
 career-profile:
     title: Career Profile
     summary: |
-      Dedicated and motivated professional with a strong background in cloud infrastructure, DevOps, and AI-driven delivery.
-      Finished A levels and secured a degree apprenticeship at Capgemini, where I started as an RPA Developer 
-      and quickly transitioned to Cloud and DevOps. Completed a degree apprenticeship and have since worked across 
-      multiple public sector clients and supported delivery on a number of internal initiatives. Now operating as 
-      Senior Platform Engineer at Kainos, leading innovative AI-first delivery approaches — most recently using 
-      spec-driven AI development to design and deliver a multi-account AWS healthcare data platform from scratch, 
-      shipping multiple major milestones and satisfying 130+ requirements.
+      Cloud infrastructure and AI delivery specialist with a track record of designing and shipping production platforms 
+      across healthcare, government, and retail sectors. Started as an RPA Developer on a degree apprenticeship at Capgemini, 
+      rapidly progressing through DevOps, platform engineering, and technical architecture roles. Now operating as Senior 
+      Platform Engineer at Kainos — pioneering AI-first infrastructure delivery using spec-driven development to build 
+      secure, multi-account AWS platforms autonomously.
 education:
     title: Education
     info:
@@ -133,26 +134,28 @@ experiences:
             - Delivered presentations to wider stakeholders
 
 projects:
-    title: Projects
+    title: Initiatives
     intro: 
     assignments:
-      - title: DevOps Community Lead
+      - title: AI Spec-Driven Delivery
         link: "#"
-        tagline: "Initiated and led efforts to gather and collaborate with DevOps colleagues across the business to identify areas of expertise, 
-        uncover potential areas for upskilling, and evaluate market demands in this area."
+        tagline: "Pioneered and validated a structured AI agent methodology for autonomous infrastructure delivery — proving production-grade outcomes with security and compliance gating."
+
+      - title: DevOps Community
+        link: "#"
+        tagline: "Founded and led a cross-business DevOps community to share expertise, identify upskilling opportunities, and align with market demands."
+
+      - title: Mentorship & Apprentice Development
+        link: "#"
+        tagline: "Ongoing mentorship of junior engineers and apprentices — structured sessions, pair programming, and career guidance."
 
       - title: Cloud Compliance Automation
         link: "#"
-        tagline: "For my university dissertation I designed and developed a system, to automate cloud compliance resolution."
+        tagline: "University dissertation — designed and built an automated compliance scanning and remediation system in Azure."
 
-      - title: Metadata Driven Platform Deployment PoC
+      - title: Metadata-Driven Platform PoC
         link: "#"
-        tagline: "Built a working PoC to support metadata driven cloud data platform deployments."
-
-      - title: Mentorship
-        link: "#"
-        tagline: "Guided and supported junior colleagues across the business, 
-        supporting their professional growth and development through regular mentorship sessions and collaborative projects."
+        tagline: "Built a working proof-of-concept for configuration-driven cloud data platform deployments."
 
 
 # oss:
@@ -201,30 +204,30 @@ skills:
 
     toolset:
       - name: Python
-        level: 80%
+        level: 78%
 
       - name: Terraform
-        level: 85%
+        level: 88%
 
       - name: Amazon Web Services
         level: 85%
 
       - name: DevOps & Platform Engineering
-        level: 85%
+        level: 82%
 
       - name: Spec-Driven Development
         level: 80%
 
       - name: Agentic AI Development
-        level: 80%
+        level: 76%
 
       - name: Internal Developer Platforms
-        level: 70%
+        level: 72%
 
       - name: Data Platforms
-        level: 70%
+        level: 68%
 
       - name: Microsoft Azure
-        level: 65%
+        level: 64%
 
 footer: 
