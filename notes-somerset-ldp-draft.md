@@ -54,81 +54,82 @@ interests:
 
 ---
 
-## Projects Section — Brainstorm
+## Initiatives Section — Complete Rework
 
-### The Problem
-"Projects" sounds like portfolio pieces / side projects. For someone at your level it should convey **impact and leadership** — things you've driven beyond your day job.
+**Name:** Initiatives  
+**Tone:** 1-2 sentences per item  
+**Approach:** Big buckets, not individual items — each shows a different dimension
 
-### Naming Options
-
-| Name | Vibe |
-|------|------|
-| **Contributions & Initiatives** | Professional, shows proactivity |
-| **Impact & Leadership** | Bold, CV-friendly |
-| **Beyond the Day Job** | Informal, maybe too casual |
-| **Initiatives** | Clean, simple |
-| **Community & Innovation** | Groups the two themes |
-| **Leadership & Innovation** | Strong, senior-sounding |
-
-**My recommendation:** **"Initiatives"** or **"Community & Innovation"** — clean, doesn't sound like hobby projects.
-
-### Content Grouping
-
-Rather than a flat list, think in categories:
-
-**Community & People:**
-- DevOps Community Lead — built cross-business DevOps community
-- Apprentice Mentorship — guided junior colleagues through structured development
-- Schools Outreach — inspired the next generation through talks and assemblies
-
-**Technical Innovation:**
-- AI Spec-Driven Development — pioneered and validated agentic AI delivery methodology
-- Cloud Compliance Automation — dissertation: automated compliance scanning and remediation in Azure
-- Metadata-Driven Platform PoC — built a working PoC for config-driven cloud deployments
-
-### Proposed Draft
+### Option A — 5 items, themed
 
 ```yaml
 projects:
     title: Initiatives
     intro: 
     assignments:
-      - title: AI Spec-Driven Delivery
+      - title: AI-First Delivery Methodology
         link: "#"
-        tagline: "Pioneered and validated a structured AI agent methodology for autonomous infrastructure delivery — proving production-grade outcomes with security and compliance gating."
+        tagline: "Pioneered spec-driven AI development using structured agent orchestration — validating autonomous infrastructure delivery with full security and compliance gating at production scale."
 
-      - title: DevOps Community
+      - title: SME Digital Transformation
         link: "#"
-        tagline: "Founded and led a cross-business DevOps community to share expertise, identify upskilling opportunities, and align with market demands."
+        tagline: "Providing technology consulting to small and medium businesses — improving digital landscapes across personal training, manufacturing, and service industries."
 
-      - title: Mentorship & Apprentice Development
+      - title: Technical Side Projects
         link: "#"
-        tagline: "Ongoing mentorship of junior engineers and apprentices — structured sessions, pair programming, and career guidance."
+        tagline: "Built a trade copier for automated financial market execution, social media automation tooling, and marketing systems as personal ventures."
 
-      - title: Cloud Compliance Automation
+      - title: Community & Knowledge Sharing
         link: "#"
-        tagline: "University dissertation — designed and built an automated compliance scanning and remediation system in Azure."
+        tagline: "Founded and ran a cross-business DevOps community delivering multiple sessions, hosted work experience programmes, and mentored degree apprentices through to qualification."
 
-      - title: Metadata-Driven Platform PoC
+      - title: Business Development
         link: "#"
-        tagline: "Built a working proof-of-concept for configuration-driven cloud data platform deployments."
+        tagline: "Contributed to winning new work through technical pre-sales, solution shaping, and client relationship development."
 ```
 
-**What changed:**
-- "AI Spec-Driven Delivery" is now the top item (most impressive, most recent)
-- Mentorship expanded to include apprentice angle
-- Schools Outreach dropped (less relevant at senior level)
-- Work Experience dropped
-- Titles are cleaner and more impactful
-- Taglines are one punchy sentence each
+### Option B — 4 items, slightly more concise
 
----
+```yaml
+projects:
+    title: Initiatives
+    intro: 
+    assignments:
+      - title: AI-First Delivery Methodology
+        link: "#"
+        tagline: "Pioneered and validated spec-driven AI agent orchestration for autonomous infrastructure delivery — proving production-grade outcomes with security and compliance gating."
 
-## Summary of Changes to Apply
+      - title: SME Technology Consulting
+        link: "#"
+        tagline: "Advising small and medium businesses on their digital landscape — PT studios, manufacturing, and service companies. Building automation, marketing systems, and operational tooling."
 
-| Change | Status |
-|--------|--------|
-| Skills percentages varied | ✅ Applied |
-| Career profile rewrite | 📝 Draft above — awaiting approval |
-| Interests format (title + subtitle) | 📝 Draft above — needs decision on sidebar vs main body |
-| Projects → Initiatives (rename + content) | 📝 Draft above — awaiting approval |
+      - title: Community, Mentorship & Outreach
+        link: "#"
+        tagline: "Founded a DevOps community delivering regular sessions, mentored degree apprentices, and ran work experience programmes to develop the next generation of engineers."
+
+      - title: Personal Ventures
+        link: "#"
+        tagline: "Trade copier for automated market execution, social media automation, and marketing systems — applying engineering skills to personal business projects."
+```
+
+### Option C — Maximum impact, 3 big buckets (recommended)
+
+```yaml
+projects:
+    title: Initiatives
+    intro: 
+    assignments:
+      - title: AI-First Delivery Innovation
+        link: "#"
+        tagline: "Pioneered spec-driven AI agent methodology for autonomous infrastructure delivery. Validated at production scale with full security gating — now shaping how teams approach AI-augmented engineering."
+
+      - title: Technology Consulting & Ventures
+        link: "#"
+        tagline: "Advising SMEs on digital transformation (PT, manufacturing, services). Personal builds include trade copiers, social media automation, and marketing systems."
+
+      - title: Community & People Development
+        link: "#"
+        tagline: "Founded a DevOps community delivering regular knowledge-sharing sessions. Mentored apprentices through to qualification. Ran work experience and outreach programmes."
+```
+
+**My take:** Option C is the most impressive — 3 clear buckets that each tell a story. Less noise, more weight. Each one shows a different dimension: technical innovation, entrepreneurial drive, and leadership/people.

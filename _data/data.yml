@@ -46,16 +46,25 @@ sidebar:
       title: Interests
       info:
         - item: AI & Emerging Tech
-          details: |
-            Exploring agentic AI workflows, LLMs, and how they reshape software delivery.
 
         - item: Business & Investing
-          details: |
-            Active investor, interested in markets and have run a number of side projects.
 
         - item: Sport & Fitness
-          details: |
-            Former elite-level athlete, still training regularly.
+
+interests:
+    title: Interests
+    info:
+      - item: AI & Emerging Tech
+        details: |
+          Exploring agentic AI workflows, LLMs, and how they reshape software delivery.
+
+      - item: Business & Investing
+        details: |
+          Active investor, interested in markets and have run a number of side projects.
+
+      - item: Sport & Fitness
+        details: |
+          Former elite-level athlete, still training regularly.
 
 career-profile:
     title: Career Profile
@@ -88,6 +97,7 @@ experiences:
             - Delivered E2E data pipeline orchestration (Step Functions + Glue) with PII anonymisation across segregated accounts
             - Implemented security-first patterns: Checkov gating, gitleaks, Fernet encryption, NAT-free VPC endpoints, cross-account KMS
 
+
       - role: DevOps Lead
         time: 2025 - 2026
         company: Capgemini
@@ -96,6 +106,7 @@ experiences:
             - Led complex multi-environment deployments and release planning
             - Strengthened DevOps practices and CI/CD processes
             - Took ownership of and improved a fragmented platform
+
 
       - role: Technical Architect
         time: 2024 - 2025
@@ -106,6 +117,7 @@ experiences:
             - Communication and collaboration with clients
             - Growing delivery and bringing in new business
 
+
       - role: Platform Lead
         time: 2023 - 2024
         company: Capgemini
@@ -115,6 +127,7 @@ experiences:
             - Delivered and explained technical work to senior client stakeholders
             - Significant step-up in soft skills: presentation, management, communication
 
+
       - role: Platform Engineer
         time: 2022 - 2023
         company: Capgemini
@@ -123,6 +136,7 @@ experiences:
             - Managed the entire AWS platform end-to-end
             - Implemented DevOps improvements
             - Acted as team lead during manager's absence
+
 
       - role: DevOps Engineer
         time: 2021 - 2022
@@ -137,25 +151,17 @@ projects:
     title: Initiatives
     intro: 
     assignments:
-      - title: AI Spec-Driven Delivery
+      - title: AI-First Delivery Innovation
         link: "#"
-        tagline: "Pioneered and validated a structured AI agent methodology for autonomous infrastructure delivery — proving production-grade outcomes with security and compliance gating."
+        tagline: "Pioneered spec-driven AI agent methodology for autonomous infrastructure delivery — now shaping how teams approach AI-augmented engineering."
 
-      - title: DevOps Community
+      - title: Technology Consulting
         link: "#"
-        tagline: "Founded and led a cross-business DevOps community to share expertise, identify upskilling opportunities, and align with market demands."
+        tagline: "Advising SMEs on digital transformation (PT, manufacturing, services). Personal builds include trade copiers, social media automation, and marketing systems."
 
-      - title: Mentorship & Apprentice Development
+      - title: Community & People Development
         link: "#"
-        tagline: "Ongoing mentorship of junior engineers and apprentices — structured sessions, pair programming, and career guidance."
-
-      - title: Cloud Compliance Automation
-        link: "#"
-        tagline: "University dissertation — designed and built an automated compliance scanning and remediation system in Azure."
-
-      - title: Metadata-Driven Platform PoC
-        link: "#"
-        tagline: "Built a working proof-of-concept for configuration-driven cloud data platform deployments."
+        tagline: "Founded a DevOps community delivering regular knowledge-sharing sessions. Mentored apprentices through to qualification. Ran work experience and outreach programmes."
 
 
 # oss:
