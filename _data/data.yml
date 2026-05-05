@@ -14,7 +14,7 @@ sidebar:
 
     # Sidebar links
     email: matthew.w.wilcox@gmail.com
-    phone: "07530564126"
+    #phone:
     #timezone: GMT Timezone
     citizenship:
     #website: blog.webjeda.com #do not add http://
@@ -78,16 +78,6 @@ education:
           The curriculum encompassed a diverse array of subjects, ranging from technical computer science modules to business-focused and consulting topics.
           Notably, my dissertation project involved the design, development, and presentation of an automation solution in Azure. 
           This solution facilitated the scanning of a platform for potential non-compliant resources, subsequently automating the ticket creation process in Azure DevOps to address these issues efficiently.
-      - degree: A Level Business & Computer Science
-        university: Shrewsbury Sixth Form
-        time: 2017 - 2019
-        details: |
-
-      - degree: 11 GCSE's A* - C
-        university: Charlton School
-        time: 2012 - 2017
-        details: |
-         
 
 experiences:
     title: Experiences
@@ -176,48 +166,6 @@ experiences:
             - Navigating difficult clients
             - Took ownership of and improved a fragmented platform
 
-certifications:
-      title: Certifications
-      list:
-        - name: AWS Cloud Practitioner
-          start: #2020
-          end: #2021
-          organization: Amazon
-          credentialid: #111-222
-          credentialurl: #www.google.com
-          credentialname: #Googllle
-          details: |
-#            Details about cert. Lorem ipsum dolor sit amet, consectetur
-#            adipiscing elit.
-#            Nullam eget orci purus. Nullam ultrices neque nibh.
-#            Aenean fermentum, felis vulputate suscipit accumsan,
-#            sem enim bibendum augue, sed convallis arcu lacus at dui.
-#            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#            Praesent venenatis erat non augue suscipit consectetur.
-#
-#            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-#            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-#            justo diam viverra velit, sed rhoncus leo leo eu justo.
-#            Suspendisse placerat risus ante, sed porta nisi blandit at.
-
-        - name: Microsoft Azure Fundamentals
-          start: #2019
-          end:
-          organization: Microsoft
-          credentialid: #111-222
-          credentialurl: #www.github.com
-          credentialname: #Github
-          details: |
-#           Older certification. Lorem ipsum dolor sit amet, consectetur
-#           adipiscing elit.
-#           Nullam eget orci purus. Nullam ultrices neque nibh.
-#           Aenean fermentum, felis vulputate suscipit accumsan,
-#           sem enim bibendum augue, sed convallis arcu lacus at dui.
-#           Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#           Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#           Praesent venenatis erat non augue suscipit consectetur.
-
 projects:
     title: Projects
     intro: 
@@ -297,33 +245,30 @@ skills:
 
     toolset:
       - name: Python
-        level: 55%
+        level: 80%
 
       - name: Terraform
-        level: 75%
-
-      - name: Vault
-        level: 50%
+        level: 85%
 
       - name: Amazon Web Services
-        level: 60%
+        level: 85%
+
+      - name: DevOps & Platform Engineering
+        level: 85%
+
+      - name: Spec-Driven Development
+        level: 80%
+
+      - name: Agentic AI Development
+        level: 80%
+
+      - name: Internal Developer Platforms
+        level: 70%
+
+      - name: Data Platforms
+        level: 70%
 
       - name: Microsoft Azure
-        level: 60%
-
-      - name: Azure DevOps
-        level: 55%
-
-      - name: CI/CD
-        level: 60%
-
-      - name: Jenkins Automation
-        level: 45%
-
-      - name: DevOps Methodologies
-        level: 55%
-
-      - name: NICE RPA
-        level: 45%
+        level: 65%
 
 footer: 

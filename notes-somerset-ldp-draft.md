@@ -1,75 +1,137 @@
-# CV Update Draft — Senior Platform Architect (Kainos)
+# CV Noise Reduction Plan
 
-## New Experience Entry
+## Already Done
 
-**Role:** Senior Platform Architect  
-**Time:** 2026 - Present  
-**Company:** Kainos  
-**Project:** Healthcare data platform — NHS client  
-**Cloud:** AWS (multi-account, multi-environment)
+- [x] Removed phone number
+- [x] Removed certifications section entirely
+- [x] Updated skills (Python, Terraform, AWS, DevOps & Platform Engineering, Spec-Driven Development, Agentic AI Development, IDPs, Data Platforms, MS Azure)
+- [x] Removed college and school from education (kept BSc only)
 
 ---
 
-## Draft Entry
+## Remaining: Reduce Noise in Experience Entries
 
+The goal: **2-3 sentences max** describing the project/context, then **clean bullet points** for achievements. No "Key take aways" header needed — just the bullets.
+
+### Senior Platform Architect (Kainos) — TRIM
+
+**Current:** 4 paragraphs + 7 bullets (very long)
+
+**Proposed:**
 ```yaml
       - role: Senior Platform Architect
         time: 2026 - Present
         company: Kainos
         details: |
-            Led a spec-driven AI development spike to design, build and deliver a multi-account AWS healthcare data platform for an NHS client from the ground up.
-            Pioneered an innovative AI-first delivery approach using the GSD (Get Shit Done) framework — a structured methodology that leverages AI agents to autonomously plan, execute, verify, and ship infrastructure at unprecedented velocity.
-            Through this approach, delivered a number of major milestones resulting in 500+ commits and 130+ requirements satisfied — all orchestrated through AI-driven spec-driven development.
-            The platform ingests sensitive patient data from healthcare providers, processes it through a medallion architecture (landing → bronze), and anonymises PII using Fernet encryption and a Master Patient Index across segregated AWS accounts.
-            Key take aways
-            - Pioneered AI-driven infrastructure delivery using spec-driven development (GSD framework) — AI agents autonomously planned phases, executed code, ran quality gates, and verified outcomes with minimal human intervention
-            - Demonstrated that AI-augmented delivery can produce production-grade, security-compliant infrastructure at 5-10x the velocity of traditional approaches
-            - Architected a multi-account AWS platform from scratch: Terraform IaC, GitHub Actions CI/CD with OIDC, 4 LZA accounts, ephemeral environment isolation
-            - Built reusable Terraform modules for composite pipelines (Step Functions + Glue), KMS encryption, landing zone ingress, and S3 event triggers
-            - Delivered end-to-end data pipeline orchestration (ingest → enrich → load) across dual AWS accounts with cross-account encryption and EventBridge automation
-            - Implemented security-first patterns: Checkov gating (HIGH+ severity), gitleaks scanning, Fernet PII anonymisation, NAT-free VPC endpoints, cross-account KMS
-            - Established engineering standards: conventional commits, Docker-based tooling, automated documentation generation, SemVer releases, and quality-gated CI/CD
+            Led a spec-driven AI development spike to design and deliver a multi-account AWS healthcare data platform from the ground up. Pioneered an AI-first delivery approach using structured agent orchestration to autonomously plan, execute, and verify infrastructure — delivering 500+ commits and 130+ requirements through AI-driven development.
+            - Pioneered AI-driven infrastructure delivery — agents autonomously planned, coded, tested, and verified with minimal human intervention
+            - Architected multi-account AWS platform: Terraform, GitHub Actions CI/CD with OIDC, ephemeral environments, cross-account encryption
+            - Delivered E2E data pipeline orchestration (Step Functions + Glue) with PII anonymisation across segregated accounts
+            - Implemented security-first patterns: Checkov gating, gitleaks, Fernet encryption, NAT-free VPC endpoints, cross-account KMS
 ```
 
----
+### DevOps Lead (Capgemini) — TRIM
 
-## Career Profile update suggestion
+**Current:** 4 sentences + 4 bullets
 
+**Proposed:**
 ```yaml
-career-profile:
-    title: Career Profile
-    summary: |
-      Dedicated and motivated professional with a strong background in cloud infrastructure, DevOps, and AI-driven delivery.
-      Finished A levels and secured a degree apprenticeship at Capgemini, where I started as an RPA Developer 
-      and quickly transitioned to Cloud and DevOps. Completed a degree apprenticeship and have since worked across 
-      multiple public sector clients and supported delivery on a number of internal initiatives. Now operating as 
-      Senior Platform Architect at Kainos, leading innovative AI-first delivery approaches — most recently using 
-      spec-driven AI development to design and deliver a multi-account AWS healthcare data platform from scratch, 
-      shipping multiple major milestones and satisfying 130+ requirements. Proficient at developing and applying knowledge in cutting-edge 
-      technologies to deliver innovative solutions and drive operational excellence. A proactive learner committed 
-      to continuous improvement and professional development. Excellent communicator and team player with strong 
-      problem-solving skills and a passion for mentoring and developing junior talent.
+      - role: DevOps Lead
+        time: 2025 - 2026
+        company: Capgemini
+        details: |
+            Led DevOps on a multi-environment AWS data platform using the medallion architecture for a retail sector client. Took ownership of the deployment lifecycle, becoming the gatekeeper for production readiness across 3 environments.
+            - Led complex multi-environment deployments and release planning
+            - Strengthened DevOps practices and CI/CD processes
+            - Took ownership of and improved a fragmented platform
+```
+
+### Technical Architect (Capgemini) — TRIM
+
+**Current:** 4 sentences + 4 bullets
+
+**Proposed:**
+```yaml
+      - role: Technical Architect
+        time: 2024 - 2025
+        company: Capgemini
+        details: |
+            Stepped up to solution architect for a data visualisation platform, designing technical solutions and evaluating services, technologies and integrations. Worked closely with senior client stakeholders and wider business teams.
+            - Solution design and technical leadership
+            - Communication and collaboration with clients
+            - Growing delivery and bringing in new business
+```
+
+### Platform Lead (Capgemini) — TRIM
+
+**Current:** 3 sentences + 4 bullets
+
+**Proposed:**
+```yaml
+      - role: Platform Lead
+        time: 2023 - 2024
+        company: Capgemini
+        details: |
+            Built and developed an Azure-hosted platform for cutting-edge data visualisation in the health sector. Designed and deployed a metadata-driven system using a CMDB to drive all platform operations.
+            - Developed an automated metadata-driven platform
+            - Delivered and explained technical work to senior client stakeholders
+            - Significant step-up in soft skills: presentation, management, communication
+```
+
+### Platform Engineer (Capgemini) — TRIM
+
+**Current:** 4 sentences + 4 bullets
+
+**Proposed:**
+```yaml
+      - role: Platform Engineer
+        time: 2022 - 2023
+        company: Capgemini
+        details: |
+            Maintained and developed the AWS platform hosting a data visualisation solution for a large government department. Identified and solved issues across infrastructure, CI/CD, security, and cost.
+            - Managed the entire AWS platform end-to-end
+            - Implemented DevOps improvements
+            - Acted as team lead during manager's absence
+```
+
+### DevOps Engineer (Capgemini) — TRIM
+
+**Current:** 3 sentences + 3 bullets
+
+**Proposed:**
+```yaml
+      - role: DevOps Engineer
+        time: 2021 - 2022
+        company: Capgemini
+        details: |
+            Worked on one of the largest AWS accounts as a DevOps engineer in data migration, delivering bulk data to multiple downstream consumers using Terraform and Jenkins.
+            - Deployed AWS Database Migration infrastructure independently
+            - Became the main contact for managing migration releases
+            - Delivered presentations to wider stakeholders
 ```
 
 ---
 
-## Key technologies & capabilities to highlight
+## Other Noise to Address
 
-- **AI Delivery:** GSD framework, spec-driven development, AI agent orchestration, autonomous planning/execution/verification
-- **IaC:** Terraform (reusable modules, state management, multi-account)
-- **CI/CD:** GitHub Actions, OIDC, SemVer, conventional commits, quality-gated pipelines
-- **AWS Services:** S3, KMS, Glue, Step Functions, DynamoDB, VPC Endpoints, EventBridge, Secrets Manager, CloudWatch, IAM, SSO
-- **Security:** Checkov, gitleaks, Fernet encryption, cross-account KMS, TLS enforcement
-- **Tooling:** Docker, TFLint, terraform-docs, Makefile-driven workflows
-- **Patterns:** Medallion architecture, ephemeral environments, landing zone ingress, composite pipeline modules
+### Career Profile
+- Currently good but slightly long. Could trim the last 2 sentences ("A proactive learner..." and "Excellent communicator...") — the CV itself demonstrates these.
+
+### Sidebar Tagline
+- Still says "DevOps Lead" — should update to "Senior Platform Architect"
+
+### Projects Section
+- Consider trimming to 3-4 most impactful (drop "Work Experience" and "Schools Outreach" — good but less relevant now)
+- Keep: DevOps Community Lead, Cloud Compliance Automation, Metadata Driven Platform PoC, Mentorship
+
+### Education
+- BSc description is 4 lines — could trim to 2
 
 ---
 
-## Notes
+## Summary of Approach
 
-- The headline story is **AI-driven delivery innovation** — you ran this as a spike proving AI agents can deliver production-grade infrastructure autonomously
-- "500+ commits, 130+ requirements, multiple milestones" demonstrates the velocity AI delivery enables
-- The GSD framework provided structure: phases → plans → execution → verification — ensuring AI output met quality and security standards
-- The technical platform (AWS, Terraform, healthcare data, PII encryption) provides the credibility backdrop
-- Healthcare/NHS is a strong sector for public sector credibility (keep client name generic)
-- The spike ran alongside traditional AI-assisted development (chat/prompts), making it a direct comparison of methodologies
+1. Each role: **2-3 sentence context** → **3-4 punchy bullets** (no headers, no fluff)
+2. Remove filler words ("Key take aways", "I was given an opportunity", "I was tasked with")
+3. Lead with impact, not responsibilities
+4. Most recent roles get most detail, older roles get compressed
