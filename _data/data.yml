@@ -94,7 +94,7 @@ experiences:
             Led a spec-driven AI development spike to design and deliver a multi-account AWS healthcare data platform from the ground up. Pioneered an AI-first delivery approach using structured agent orchestration to autonomously plan, execute, and verify infrastructure — delivering 500+ commits and 130+ requirements through AI-driven development.
             - Pioneered AI-driven infrastructure delivery — agents autonomously planned, coded, tested, and verified with minimal human intervention
             - Architected multi-account AWS platform: Terraform, GitHub Actions CI/CD with OIDC, ephemeral environments, cross-account encryption
-            - Delivered E2E data pipeline orchestration (Step Functions + Glue) with PII anonymisation across segregated accounts
+            - Delivered E2E data pipeline orchestration with PII anonymisation across segregated accounts
             - Implemented security-first patterns: Checkov gating, gitleaks, Fernet encryption, NAT-free VPC endpoints, cross-account KMS
 
 
