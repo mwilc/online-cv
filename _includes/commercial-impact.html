@@ -1,0 +1,31 @@
+{% assign commercial-impact = site.data.data.commercial-impact %}
+{% if commercial-impact %}
+<section class="section commercial-impact-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-chart-line fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ commercial-impact.title }}
+  </h2>
+
+  {% if commercial-impact.intro %}
+  <div class="intro">
+    {{ commercial-impact.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  <div class="impact-list">
+    {% for item in commercial-impact.items %}
+    <div class="item">
+      <span class="impact-title">{{ item.title }}</span>
+      {% if item.detail %}
+      — <span class="impact-detail">{{ item.detail }}</span>
+      {% endif %}
+    </div><!--//item-->
+    {% endfor %}
+  </div><!--//impact-list-->
+
+</section><!--//section-->
+{% endif %}
