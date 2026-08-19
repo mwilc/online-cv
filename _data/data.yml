@@ -125,7 +125,6 @@ experiences:
             - Converted one into a permanent billable role adding £750/day in billables
             - Solution design and technical leadership
             - Communication and collaboration with clients
-            - Growing delivery and bringing in new business
 
 
       - role: Platform Lead
@@ -221,6 +220,15 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
+      - name: Business Development
+        level: 82%
+
+      - name: Account Growth
+        level: 85%
+
+      - name: Stakeholder Management
+        level: 84%
+
       - name: Python
         level: 78%
 
@@ -230,14 +238,14 @@ skills:
       - name: Amazon Web Services
         level: 85%
 
-      - name: DevOps & Platform Engineering
+      - name: DevOps
         level: 82%
 
-      - name: Spec-Driven Development
-        level: 80%
+      - name: Platform Engineering
+        level: 85%
 
       - name: Agentic AI Development
-        level: 76%
+        level: 80%
 
       - name: Internal Developer Platforms
         level: 72%
