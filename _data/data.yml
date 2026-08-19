@@ -132,7 +132,9 @@ experiences:
         time: 2022 - 2023
         company: Capgemini
         details: |
-            Maintained and developed the AWS platform hosting a data visualisation solution for a large government department. Identified and solved issues across infrastructure, CI/CD, security, and cost.
+            Maintained and developed the AWS platform hosting a data visualisation solution for a large government department, while identifying and securing investment to grow the delivery team. Solved issues across infrastructure, CI/CD, security, and cost.
+            - Built a business case that identified and closed a contractor-reliance gap
+            - Helped grow delivery team from 2 to 6 engineers, securing an extra £2500/day in billables
             - Managed the entire AWS platform end-to-end
             - Implemented DevOps improvements
             - Acted as team lead during manager's absence
