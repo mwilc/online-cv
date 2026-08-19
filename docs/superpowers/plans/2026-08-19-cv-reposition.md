@@ -1,78 +1,184 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
+# CV Repositioning Implementation Plan
 
-sidebar:
-    position: right # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-    # Profile information
-    name: Matt Wilcox
+**Goal:** Reposition Matt Wilcox's online CV from a Platform/DevOps engineering profile to a customer-facing Cloud Solutions Consultant / Pre-Sales / Technical Business Development profile while retaining technical credibility.
+
+**Architecture:** Content-driven change in the existing Jekyll template. One new include for the Commercial Impact section; the main CV data file and page order are updated. No build logic or styling changes.
+
+**Tech Stack:** Jekyll, YAML front matter, Liquid includes, Bootstrap-based Sass theme.
+
+## Global Constraints
+- Preserve truthfulness: no invented revenue figures, quotas, or responsibilities.
+- Keep role titles factually accurate; only the sidebar tagline may change.
+- Maintain strong AWS/AI technical credibility without reading like a technical architecture document.
+- Follow existing Jekyll include pattern: `_includes/<section>.html` + `site.data.data.<section>`.
+- Use Conventional Commits.
+- Create feature branch `feat/cv-reposition` before editing.
+
+---
+
+### Task 1: Create feature branch
+
+**Files:**
+- Modify: none (git operation)
+
+**Interfaces:**
+- Consumes: current branch `main`
+- Produces: local branch `feat/cv-reposition`
+
+- [ ] **Step 1: Ensure main is up to date**
+
+Run:
+```bash
+git checkout main && git pull origin main
+```
+Expected: working tree clean, `main` up to date.
+
+- [ ] **Step 2: Create feature branch**
+
+Run:
+```bash
+git checkout -b feat/cv-reposition
+```
+Expected: branch `feat/cv-reposition` checked out.
+
+---
+
+### Task 2: Add Commercial Impact include template
+
+**Files:**
+- Create: `_includes/commercial-impact.html`
+
+**Interfaces:**
+- Consumes: `site.data.data.commercial-impact`
+- Produces: rendered HTML for Commercial Impact section
+
+- [ ] **Step 1: Create the include file**
+
+Create `_includes/commercial-impact.html` with:
+```liquid
+{% assign commercial-impact = site.data.data.commercial-impact %}
+{% if commercial-impact %}
+<section class="section commercial-impact-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-chart-line fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ commercial-impact.title }}
+  </h2>
+
+  {% if commercial-impact.intro %}
+  <div class="intro">
+    {{ commercial-impact.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  <div class="impact-list">
+    {% for item in commercial-impact.items %}
+    <div class="item">
+      <span class="impact-title">{{ item.title }}</span>
+      {% if item.detail %}
+      — <span class="impact-detail">{{ item.detail }}</span>
+      {% endif %}
+    </div><!--//item-->
+    {% endfor %}
+  </div><!--//impact-list-->
+
+</section><!--//section-->
+{% endif %}
+```
+
+- [ ] **Step 2: Verify file exists**
+
+Run:
+```bash
+ls -la _includes/commercial-impact.html
+```
+Expected: file listed.
+
+---
+
+### Task 3: Insert Commercial Impact section into page order
+
+**Files:**
+- Modify: `index.html`
+
+**Interfaces:**
+- Consumes: existing includes (`career-profile.html`, etc.)
+- Produces: page renders Career Profile → Commercial Impact → Education → Experiences → Certifications → Projects → OSS → Publications → Skills
+
+- [ ] **Step 1: Add include after Career Profile**
+
+Replace in `index.html`:
+```liquid
+---
+layout: default
+---
+
+
+{% include career-profile.html %}
+```
+with:
+```liquid
+---
+layout: default
+---
+
+
+{% include career-profile.html %}
+
+{% include commercial-impact.html %}
+```
+
+- [ ] **Step 2: Verify Jekyll still parses**
+
+Run:
+```bash
+bundle exec jekyll build --strict_front_matter 2>&1 | head -30
+```
+Expected: build completes with no Liquid/YAML errors.
+
+---
+
+### Task 4: Rewrite `_data/data.yml` content
+
+**Files:**
+- Modify: `_data/data.yml`
+
+**Interfaces:**
+- Consumes: existing schema for `sidebar`, `career-profile`, `experiences`, `projects`, `skills`
+- Produces: updated YAML that drives repositioned CV copy
+
+- [ ] **Step 1: Update sidebar tagline**
+
+Replace:
+```yaml
+    tagline: Senior Platform Engineer
+```
+with:
+```yaml
     tagline: Cloud Solutions Consultant
-    avatar: pic.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+```
 
-    # Sidebar links
-    email: matthew.w.wilcox@gmail.com
-    #phone:
-    #timezone: GMT Timezone
-    citizenship:
-    #website: blog.webjeda.com #do not add http://
-    linkedin: matt-wilcox001
-    #xing: alandoe
-    #github: sharu725
-    #telegram: # add your nickname without '@' sign
-    #gitlab:
-    #bitbucket:
-    #twitter: '@webjeda'
-    #stack-overflow: # Number/Username, e.g. 123456/alandoe
-    #codewars:
-    #goodreads: # Number-Username, e.g. 123456-alandoe
-    #pdf: http://www.africau.edu/images/default/sample.pdf
+- [ ] **Step 2: Rewrite career profile summary**
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
-
-        # - idiom: French
-        #   level: Professional
-
-        # - idiom: Spanish
-        #   level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: AI & Emerging Tech
-
-        - item: Business & Investing
-
-        - item: Sport & Fitness
-
-interests:
-    title: Interests
-    info:
-      - item: AI & Emerging Tech
-        details: |
-          Exploring agentic AI workflows, LLMs, and how they reshape software delivery.
-
-      - item: Business & Investing
-        details: |
-          Active investor, interested in markets and have run a number of side projects.
-
-      - item: Sport & Fitness
-        details: |
-          Former elite-level athlete, still training regularly.
-
+Replace the `career-profile.summary` block with:
+```yaml
 career-profile:
     title: Career Profile
     summary: |
       Cloud Solutions Consultant with an engineering backbone and a growing track record in customer engagement, account growth, and commercial delivery. I help organisations turn complex technology into actionable business outcomes — whether that means shaping cloud strategy, running executive workshops, securing partner funding, or building propositions that open new revenue streams.
 
       My background is hands-on: AWS platform delivery, AI-first engineering, data platforms, and DevOps at scale. Over time I have moved closer to the commercial edge of the business — managing AWS partner relationships, identifying growth opportunities in existing accounts, negotiating resources, and pitching solutions directly to senior stakeholders. I am now pursuing consulting, pre-sales, and business development roles where technical credibility and commercial impact meet.
+```
 
+- [ ] **Step 3: Add commercial impact section data**
+
+Insert after `career-profile` and before `education`:
+```yaml
 commercial-impact:
     title: Commercial Impact
     intro: |
@@ -101,17 +207,12 @@ commercial-impact:
 
       - title: Facilitated client workshops
         detail: Ran discovery and solution workshops with senior client stakeholders to surface opportunities and align delivery with business priorities.
+```
 
-education:
-    title: Education
-    info:
-      - degree: BSc - Digital & Technology Solutions
-        university: Aston University
-        time: 2019 - 2024
-        details: |
-          Completed a part-time BSc degree sponsored by Capgemini, undertaken concurrently with full-time employment.
-          Dissertation involved designing and developing an automation solution in Azure to scan platforms for non-compliant resources and automate ticket creation in Azure DevOps.
+- [ ] **Step 4: Reposition experiences**
 
+Replace the entire `experiences` block with:
+```yaml
 experiences:
     title: Experiences
     info:
@@ -181,7 +282,12 @@ experiences:
             - Deployed and managed AWS Database Migration infrastructure as the trusted release owner
             - Became the primary contact for planning and communicating migration releases to downstream consumers
             - Delivered presentations to wider stakeholders, building early experience in customer-facing communication
+```
 
+- [ ] **Step 5: Tighten project taglines**
+
+Replace `projects.assignments` taglines with:
+```yaml
 projects:
     title: Initiatives
     intro: 
@@ -197,49 +303,12 @@ projects:
       - title: Community & People Development
         link: "#"
         tagline: "Founded a DevOps community and ran regular knowledge-sharing sessions. Mentored apprentices to qualification and led outreach programmes that grew internal capability."
+```
 
+- [ ] **Step 6: Rework skills**
 
-# oss:
-#     title: OSS Contributions
-#     intro: >
-#       You can list your open source software contributions in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     contributions:
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-#       - title: Atom test
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-# publications:
-#     title: Publications
-#     intro: |
-#       You can list your publications in this section. Lorem ipsum dolor sit
-#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#       bibendum fringilla a eu lectus.
-#     papers:
-#       - title: The Art of Computer Programming
-#         link: "#"
-#         authors: Donald E. Knuth
-#         conference: Addison-Wesley, 1968
-
-#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#         link: "#"
-#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-#       - title: A syntax directed compiler for Algol 60
-#         link: "#"
-#         authors: Edgar T. Irons
-#         conference: "Comm. ACM 4 (1961), 51–55"
-
+Replace `skills.toolset` with:
+```yaml
 skills:
     title: Skills &amp; Proficiency
 
@@ -297,5 +366,111 @@ skills:
 
       - name: Python
         level: 76%
+```
 
-footer: 
+- [ ] **Step 7: Validate YAML syntax**
+
+Run:
+```bash
+ruby -e "require 'yaml'; YAML.load_file('_data/data.yml'); puts 'YAML OK'"
+```
+Expected: `YAML OK`
+
+- [ ] **Step 8: Build Jekyll site**
+
+Run:
+```bash
+bundle exec jekyll build 2>&1 | tail -20
+```
+Expected: build succeeds, no YAML/Liquid errors.
+
+---
+
+### Task 5: Review rendered output
+
+**Files:**
+- Verify: `_site/index.html` (generated)
+
+**Interfaces:**
+- Consumes: built site
+- Produces: visual confirmation or list of issues
+
+- [ ] **Step 1: Serve site locally**
+
+Run:
+```bash
+bundle exec jekyll serve --detach --host 127.0.0.1 --port 4000
+```
+
+- [ ] **Step 2: Check key sections render**
+
+Open `http://127.0.0.1:4000` and confirm:
+1. Sidebar tagline reads "Cloud Solutions Consultant".
+2. Career Profile opens with consulting/commercial narrative and career-direction statement.
+3. Commercial Impact section appears immediately after Career Profile.
+4. Experience entries lead with business outcomes, not implementation detail.
+5. Skills prioritise business/consulting skills, with technical skills secondary.
+6. No broken YAML/Liquid output visible on the page.
+
+- [ ] **Step 3: Stop local server**
+
+Run:
+```bash
+pkill -f "jekyll serve" || true
+```
+
+---
+
+### Task 6: Commit changes
+
+**Files:**
+- Modify: `_data/data.yml`, `index.html`
+- Create: `_includes/commercial-impact.html`
+
+**Interfaces:**
+- Consumes: updated files
+- Produces: committed feature branch
+
+- [ ] **Step 1: Stage changes**
+
+Run:
+```bash
+git add _data/data.yml index.html _includes/commercial-impact.html docs/superpowers/specs/2026-08-19-cv-reposition-design.md docs/superpowers/plans/2026-08-19-cv-reposition.md
+```
+
+- [ ] **Step 2: Commit with Conventional Commits**
+
+Run:
+```bash
+git commit -m "feat(cv): reposition profile toward cloud solutions and pre-sales consulting
+
+- Update tagline to Cloud Solutions Consultant
+- Rewrite career profile for customer-facing commercial impact
+- Add Commercial Impact section with funding, revenue, and account growth
+- Reposition experience descriptions to lead with business outcomes
+- Rework skills to prioritise consulting and business development
+- Tighten project taglines around advisory and delivery innovation"
+```
+
+---
+
+## Self-Review
+
+**1. Spec coverage:**
+- ✅ Career Profile rewrite — Task 4 Step 2
+- ✅ Reposition Experience — Task 4 Step 4
+- ✅ Emphasise commercial achievements — Task 4 Steps 2-4
+- ✅ New Commercial Impact section — Tasks 2, 3, 4 Step 3
+- ✅ Skills section rework — Task 4 Step 6
+- ✅ Reduce technical noise — Task 4 Step 4
+- ✅ Career direction statement — Task 4 Step 2
+- ✅ Preserve truthfulness — Global Constraints + Task 4 Step 4
+
+**2. Placeholder scan:**
+- No TBD/TODO/"fill in details".
+- No vague "add appropriate" instructions.
+- All code blocks contain literal content.
+
+**3. Type consistency:**
+- YAML keys (`commercial-impact`, `career-profile`, `experiences`, `projects`, `skills`) match existing Jekyll/Liquid usage.
+- Include file name matches include call.
