@@ -229,8 +229,6 @@ skills:
       - name: Stakeholder Management
         level: 84%
 
-      - name: Python
-        level: 78%
 
       - name: Terraform
         level: 88%
@@ -250,6 +248,9 @@ skills:
       - name: Internal Developer Platforms
         level: 72%
 
+      - name: Python
+        level: 78%
+        
       - name: Data Platforms
         level: 68%
 
