@@ -96,6 +96,16 @@ experiences:
             - Implemented security-first patterns: Checkov gating, gitleaks, Fernet encryption, NAT-free VPC endpoints, cross-account KMS
 
 
+      - role: Deputy AWS Partner Lead
+        time: 2025
+        company: Capgemini
+        details: |
+            Managed AWS partner relationships, built go-to-market propositions, and grew Capgemini's AWS practice across existing and new accounts.
+            - Managed client and AWS relationships, facilitated workshops, and secured AWS funding and MAP credits
+            - Identified and pursued growth opportunities within existing accounts
+            - Built and pitched a Bedrock RAG proposition enabling project managers to query project data for risk and trend analysis
+
+
       - role: DevOps Lead
         time: 2025 - 2026
         company: Capgemini
