@@ -19,9 +19,9 @@
   <div class="impact-list">
     {% for item in commercial-impact.items %}
     <div class="item">
-      <span class="impact-title">{{ item.title }}</span>
+      <h3 class="impact-title">{{ item.title }}</h3>
       {% if item.detail %}
-      — <span class="impact-detail">{{ item.detail }}</span>
+      <div class="impact-detail">{{ item.detail }}</div>
       {% endif %}
     </div><!--//item-->
     {% endfor %}
