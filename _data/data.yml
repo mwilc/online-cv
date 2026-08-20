@@ -69,38 +69,29 @@ interests:
 career-profile:
     title: Career Profile
     summary: |
-      Cloud Solutions Consultant with an engineering backbone and a growing track record in customer engagement, account growth, and commercial delivery. I help organisations turn complex technology into actionable business outcomes — whether that means shaping cloud strategy, running executive workshops, securing partner funding, or building propositions that open new revenue streams.
+      Cloud Solutions Consultant with an engineering background and a track record of translating business and operational challenges into credible technology solutions. I combine customer discovery, stakeholder alignment, solution shaping, and hands-on technical expertise to help organisations make better decisions and deliver measurable outcomes.
 
-      My background is hands-on: AWS platform delivery, AI-first engineering, data platforms, and DevOps at scale. Over time I have moved closer to the commercial edge of the business — managing AWS partner relationships, identifying growth opportunities in existing accounts, negotiating resources, and pitching solutions directly to senior stakeholders. I am now pursuing consulting, pre-sales, and business development roles where technical credibility and commercial impact meet.
+      My experience spans AWS platform delivery, AI-first engineering, data platforms, and DevOps. Over time I have moved closer to customer-facing and commercially focused work: managing AWS partner relationships, running discovery workshops, securing partner funding, developing propositions, and guiding investment and resourcing decisions. I am now targeting consulting, pre-sales, partner management, and technical business development roles where technical depth strengthens commercial impact.
 
 commercial-impact:
     title: Commercial Impact
     intro: |
-      Selected achievements that show how I create value beyond delivery — through funding, revenue, account growth, and stakeholder influence.
+      Selected achievements that show how I create value beyond delivery: funding, revenue, account growth, and stakeholder alignment.
     items:
-      - title: Securing AWS funding & credits
-        detail: As Deputy AWS Partner Lead, managed the AWS relationship and unlocked funding and migration acceleration incentives to support client engagements.
+      - title: Secured AWS funding and MAP credits
+        detail: As Deputy AWS Partner Lead, managed the AWS relationship and unlocked migration acceleration incentives to support client engagements.
 
-      - title: Generating additional billable revenue
-        detail: Built a business case that closed a contractor-reliance gap and helped grow the delivery team from 2 to 6 engineers, securing an extra £2,500/day in billables.
+      - title: Generated an extra £2,500/day in billables
+        detail: Built a business case that closed a contractor-reliance gap and helped grow the delivery team from 2 to 6 engineers.
 
-      - title: Converting bench resources to billable role
-        detail: Negotiated two unfunded engineers onto an understaffed project via internal resourcing; converted one into a permanent billable position adding £750/day.
+      - title: Converted an unfunded engineer into a £750/day billable role
+        detail: Negotiated two unfunded engineers onto an understaffed project through internal resourcing and converted one into a permanent billable position.
 
-      - title: Building and pitching AI propositions
-        detail: Developed a Bedrock RAG proposition enabling project managers to query project data for risk and trend analysis, and pitched it to stakeholders.
+      - title: Built and pitched an AI proposition
+        detail: Developed a Bedrock RAG solution enabling project managers to query project data for risk and trend analysis, then pitched it to senior stakeholders.
 
-      - title: Supporting account growth
-        detail: Identified and pursued growth opportunities within existing accounts while growing Capgemini's AWS practice alongside the partner team.
-
-      - title: Expanding delivery capability
-        detail: Grew teams, secured investment, and shaped resourcing decisions through internal negotiation and stakeholder management.
-
-      - title: Managing strategic relationships
-        detail: Owned client and AWS relationships, facilitated workshops, and acted as the bridge between technical delivery and commercial outcomes.
-
-      - title: Facilitating client workshops
-        detail: Ran discovery and solution workshops with senior client stakeholders to surface opportunities and align delivery with business priorities.
+      - title: Supported account and partner growth
+        detail: Identified opportunities within existing accounts, ran discovery workshops, and worked with the AWS partner team to grow Capgemini's AWS practice.
 
 education:
     title: Education
@@ -119,84 +110,80 @@ experiences:
         time: 2026 - Present
         company: Kainos
         details: |
-            Shaped and delivered a multi-account AWS healthcare data platform from first principles, while pioneering an AI-first consulting delivery model that dramatically accelerated proposition development and client outcomes.
-            - Identified the opportunity to apply agentic AI to infrastructure delivery, then built and pitched the approach internally — delivering 130+ requirements and 500+ commits with minimal human intervention
-            - Facilitated scoping conversations and shaped the platform proposition for healthcare data workloads
-            - Influenced architecture and security decisions across segregated AWS accounts, balancing technical rigour with delivery speed
-            - Drove delivery efficiency that strengthened the team's ability to respond to new commercial opportunities
+            Worked on a multi-account AWS healthcare data platform, turning regulated data, security, and operational requirements into a credible platform approach. Championed an AI-first consulting and engineering method that improved the speed at which the team could validate solutions and respond to opportunities.
+            - Led scoping and options conversations for healthcare data workloads
+            - Translated security, operational, and delivery constraints into architecture options across segregated AWS accounts
+            - Championed an agentic AI delivery approach internally, validating 130+ requirements and 500+ commits as evidence of the method
+            - Improved solution validation speed, strengthening the team's ability to respond to new opportunities
 
       - role: Deputy AWS Partner Lead
         time: 2025 - 2026 (concurrent)
         company: Capgemini
         details: |
-            Owned Capgemini's AWS relationship and grew the AWS practice by connecting partner strategy to account opportunities, workshops, and funded programmes.
-            - Managed client and AWS relationships, identifying opportunities and positioning Capgemini solutions with stakeholders
+            Helped run Capgemini's AWS relationship, connecting partner capabilities and funding to customer migration and modernisation challenges. Focused on discovery, proposition development, and account engagement.
+            - Managed client and AWS relationships, identifying opportunities and positioning Capgemini solutions with clients and partner teams
             - Secured AWS funding and MAP credits to support client migration and modernisation initiatives
-            - Built and pitched a Bedrock RAG proposition enabling project managers to query project data for risk and trend analysis
-            - Grew AWS practice visibility across existing and new accounts through propositions, workshops, and partner engagement
+            - Developed and pitched a Bedrock RAG proposition enabling project managers to query project data for risk and trend analysis
+            - Ran discovery workshops and supported account growth across existing and new clients alongside the AWS partner team
 
       - role: DevOps Lead
         time: 2025 - 2026
         company: Capgemini
         details: |
-            Led DevOps for a retail-sector AWS data platform, becoming the trusted gatekeeper for production readiness and the primary link between technical teams and client stakeholders.
+            Served as the trusted link between delivery teams and client stakeholders on a retail-sector AWS data platform. Focused on communicating production readiness, managing delivery risk, and building client confidence.
             - Owned release planning and production-readiness decisions across three environments
-            - Strengthened client confidence by improving platform stability and delivery discipline
-            - Identified and removed blockers that were slowing account delivery, enabling the team to take on more scope
+            - Communicated readiness and risk clearly to senior stakeholders, improving confidence in the platform
+            - Identified and removed delivery blockers, enabling the account to take on additional scope
 
       - role: Technical Architect
         time: 2024 - 2025
         company: Capgemini
         details: |
-            Stepped up as solution architect for a data visualisation platform, focusing on growing delivery capacity and aligning technical solutions with client and commercial priorities.
-            - Negotiated two unfunded engineers onto an understaffed project through internal stakeholder influence
-            - Converted one into a permanent billable role, adding £750/day in billables
-            - Influenced senior client stakeholders and wider business teams on solution direction
-            - Balanced solution design decisions with delivery capacity and account health
+            Recognised a delivery capacity problem on a data visualisation platform and built alignment around a resourcing solution that created measurable commercial value.
+            - Identified the account capacity risk and developed a resourcing approach with internal stakeholders
+            - Negotiated two unfunded engineers onto the project; converted one into a permanent billable role adding £750/day
+            - Aligned senior client stakeholders and internal teams on solution direction and trade-offs
+            - Balanced solution design with account health, delivery capacity, and commercial priorities
 
       - role: Platform Lead
         time: 2023 - 2024
         company: Capgemini
         details: |
-            Led an Azure-hosted data visualisation platform in the health sector, with increasing exposure to senior stakeholders and the commercial side of account delivery.
-            - Shaped and delivered a metadata-driven platform that simplified operations and reduced ongoing service risk
-            - Presented technical direction and trade-offs to senior client stakeholders, building trust and account credibility
-            - Developed propositions and communication skills that laid the groundwork for later consulting and partner-facing work
+            Led an Azure-hosted data visualisation platform in the health sector, reducing operational complexity through a simpler, lower-risk platform approach and building trust with senior stakeholders.
+            - Developed a metadata-driven platform that reduced operational complexity and service risk
+            - Presented technical options and trade-offs to senior client stakeholders, building account credibility
+            - Ran workshops and scoping conversations that connected technical decisions to business outcomes
 
       - role: Platform Engineer
         time: 2022 - 2023
         company: Capgemini
         details: |
-            Managed the AWS platform for a large government data visualisation solution, while identifying and securing investment to grow the delivery team and account capability.
-            - Built a business case that identified and closed a contractor-reliance gap
-            - Helped grow the delivery team from 2 to 6 engineers, securing an extra £2,500/day in billables
+            Managed the AWS platform for a large government data visualisation solution while identifying a contractor-reliance and capability risk, then securing investment to expand account capability.
+            - Identified the contractor-reliance gap and built a business case that secured additional investment
+            - Helped grow the delivery team from 2 to 6 engineers, generating an extra £2,500/day in billables
             - Owned the end-to-end AWS platform and acted as team lead during the manager's absence
-            - Maintained and presented the platform's health to stakeholders, influencing continued investment
+            - Presented platform health and investment needs clearly to stakeholders
 
       - role: DevOps Engineer
         time: 2021 - 2022
         company: Capgemini
         details: |
-            Delivered bulk data migration services on one of Capgemini's largest AWS accounts, becoming the main point of contact for migration releases and stakeholder updates.
-            - Deployed and managed AWS Database Migration infrastructure as the trusted release owner
-            - Became the primary contact for planning and communicating migration releases to downstream consumers
-            - Delivered presentations to wider stakeholders, building early experience in customer-facing communication
+            Delivered bulk data migration services on one of Capgemini's largest AWS accounts, becoming a trusted point of contact for migration releases and stakeholder updates.
+            - Deployed and managed AWS Database Migration infrastructure as the release owner
+            - Coordinated migration releases with downstream consumers, resolving blockers and keeping stakeholders informed
+            - Presented updates to a wider audience, building early customer-facing communication experience
 
 projects:
-    title: Initiatives
+    title: Leadership & Innovation
     intro: 
     assignments:
-      - title: AI-First Delivery Innovation
+      - title: AI-First Consulting Approach
         link: "#"
-        tagline: "Pioneered a spec-driven, agentic approach to cloud delivery — positioning teams to respond faster to client opportunities and reduce proposition-to-production time."
-
-      - title: Technology Consulting & Advisory
-        link: "#"
-        tagline: "Advise business SMEs on digital transformation. Personal ventures span trade automation, social media systems, and marketing platforms, strengthening commercial and product instincts."
+        tagline: "Championed a spec-driven, agentic delivery method that accelerates solution validation, increases delivery capacity, and reduces time-to-value for clients."
 
       - title: Community & People Development
         link: "#"
-        tagline: "Founded a DevOps community and ran regular knowledge-sharing sessions. Mentored apprentices to qualification and led outreach programmes that grew internal capability."
+        tagline: "Founded and led a DevOps community that connected engineers across teams through regular knowledge-sharing sessions. Mentored apprentices through qualification and ran outreach programmes that strengthened internal capability."
 
 
 # oss:
@@ -241,61 +228,35 @@ projects:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
-    toolset:
-      - name: Business Development
-        level: 85%
+    groups:
+      - title: Commercial
+        items:
+          - Business Development
+          - Account Growth
+          - Partner Engagement
+          - Proposal Development
+          - Commercial Awareness
+          - Stakeholder Management
 
-      - name: Account Growth
-        level: 88%
+      - title: Consulting
+        items:
+          - Customer Discovery
+          - Workshop Facilitation
+          - Solution Design
+          - Executive Communication
+          - Requirements Definition
+          - Cloud Strategy
 
-      - name: Stakeholder Management
-        level: 86%
-
-      - name: Workshop Facilitation
-        level: 84%
-
-      - name: Solution Selling
-        level: 80%
-
-      - name: Customer Discovery
-        level: 82%
-
-      - name: Executive Communication
-        level: 83%
-
-      - name: Proposal Development
-        level: 80%
-
-      - name: Technical Consulting
-        level: 85%
-
-      - name: Cloud Strategy
-        level: 82%
-
-      - name: Amazon Web Services
-        level: 85%
-
-      - name: Agentic AI Development
-        level: 80%
-
-      - name: Platform Engineering
-        level: 80%
-
-      - name: DevOps
-        level: 78%
-
-      - name: Terraform
-        level: 82%
-
-      - name: Data Platforms
-        level: 72%
-
-      - name: Microsoft Azure
-        level: 66%
-
-      - name: Python
-        level: 76%
+      - title: Technical
+        items:
+          - Amazon Web Services
+          - Microsoft Azure
+          - Platform Engineering
+          - DevOps
+          - Terraform
+          - Data Platforms
+          - Agentic AI
 
 footer: 

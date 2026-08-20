@@ -289,6 +289,38 @@ p {
   }
 }
 
+.skillset-grouped {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+
+  .skill-group-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: $text-color;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      font-size: 14px;
+      color: $text-color-secondary;
+      margin-bottom: 6px;
+      line-height: 1.4;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
 .footer {
   padding-top: 30px;
   .copyright {

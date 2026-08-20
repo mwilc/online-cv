@@ -26,6 +26,11 @@
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+
+  .skillset-grouped {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
