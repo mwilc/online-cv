@@ -54,17 +54,20 @@ sidebar:
 interests:
     title: Interests
     info:
-      - item: AI & Emerging Tech
+      - item: Health & Fitness 
         details: |
-          Exploring agentic AI workflows, LLMs, and how they reshape software delivery.
 
       - item: Business & Investing
         details: |
-          Active investor, interested in markets and have run a number of side projects.
 
-      - item: Sport & Fitness
+      - item: Travelling
         details: |
-          Former elite-level athlete, still training regularly.
+
+      - item: Real Estate
+        details: |
+
+      - item: AI & Emerging Tech
+        details: |
 
 career-profile:
     title: Career Profile
