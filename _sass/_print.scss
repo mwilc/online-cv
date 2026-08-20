@@ -36,6 +36,16 @@
        -webkit-print-color-adjust: exact; 
     }
 
+    .skillset-grouped {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .skill-list li {
+      color: $text-color-secondary;
+    }
+
    .fa-inverse,
    .fa-inverse:after,
    .fa-inverse:before {
