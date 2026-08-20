@@ -110,10 +110,10 @@ experiences:
         time: 2026 - Present
         company: Kainos
         details: |
-            Worked on a multi-account AWS healthcare data platform, turning regulated data, security, and operational requirements into a credible platform approach. Championed an AI-first consulting and engineering method that improved the speed at which the team could validate solutions and respond to opportunities.
+            Worked on a multi-account AWS healthcare data platform, turning regulated data, security, and operational requirements into a credible platform approach. Led an AI-first consulting and engineering method that improved the speed at which the team could validate solutions and respond to opportunities.
             - Led scoping and options conversations for healthcare data workloads
             - Translated security, operational, and delivery constraints into architecture options across segregated AWS accounts
-            - Championed an agentic AI delivery approach internally, validating 130+ requirements and 500+ commits as evidence of the method
+            - Led an agentic AI delivery approach internally, validating 130+ requirements and 500+ commits as evidence of the method
             - Improved solution validation speed, strengthening the team's ability to respond to new opportunities
 
       - role: Deputy AWS Partner Lead
@@ -179,7 +179,7 @@ projects:
     assignments:
       - title: AI-First Consulting Approach
         link: "#"
-        tagline: "Championed a spec-driven, agentic delivery method that accelerates solution validation, increases delivery capacity, and reduces time-to-value for clients."
+        tagline: "Led a spec-driven, agentic delivery method that accelerates solution validation, increases delivery capacity, and reduces time-to-value for clients."
 
       - title: Community & People Development
         link: "#"
