@@ -45,29 +45,11 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: AI & Emerging Tech
-
+        - item: Health & Fitness
         - item: Business & Investing
-
-        - item: Sport & Fitness
-
-interests:
-    title: Interests
-    info:
-      - item: Health & Fitness 
-        details: |
-
-      - item: Business & Investing
-        details: |
-
-      - item: Travelling
-        details: |
-
-      - item: Real Estate
-        details: |
-
-      - item: AI & Emerging Tech
-        details: |
+        - item: Travelling
+        - item: Real Estate
+        - item: AI & Emerging Tech
 
 career-profile:
     title: Career Profile
