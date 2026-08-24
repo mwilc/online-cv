@@ -56,7 +56,7 @@ career-profile:
     summary: |
       Cloud Solutions Consultant with an engineering background and a track record of translating business and operational challenges into credible technology solutions. I combine customer discovery, stakeholder alignment, solution shaping, and hands-on technical expertise to help organisations make better decisions and deliver measurable outcomes.
 
-      My experience spans AWS platform delivery, AI-first engineering, data platforms, and DevOps. Over time I have moved closer to customer-facing and commercially focused work: managing AWS partner relationships, running discovery workshops, securing partner funding, developing propositions, and guiding investment and resourcing decisions. I am now targeting consulting, pre-sales, partner management, and technical business development roles where technical depth strengthens commercial impact.
+      My experience spans AWS platform delivery, AI-first engineering, data platforms, and DevOps. Over time I have moved closer to customer facing and commercially focused work: managing AWS partner relationships, running discovery workshops, securing partner funding, developing propositions, and guiding investment and resourcing decisions. I am now targeting consulting, pre-sales, partner management, and technical business development roles where technical depth strengthens commercial impact.
 
 commercial-impact:
     title: Commercial Impact
@@ -67,7 +67,7 @@ commercial-impact:
         detail: As Deputy AWS Partner Lead, managed the AWS relationship and unlocked migration acceleration incentives to support client engagements.
 
       - title: Generating Thousands in Billables
-        detail: Built a business case that closed a contractor-reliance gap and helped grow the delivery team from 2 to 6 engineers, generating an extra £2,500/day in billables.
+        detail: Built a business case that closed a contractor reliance gap and helped grow the delivery team from 2 to 6 engineers, generating an extra £2,500/day in billables.
 
       - title: Unfunded to Fully Billable
         detail: Negotiated two unfunded engineers onto an understaffed project through internal resourcing and converted one into a permanent billable position, generating an extra £750/day in billables.
@@ -95,7 +95,7 @@ experiences:
         time: 2026 - Present
         company: Kainos
         details: |
-            Worked on a multi-account AWS healthcare data platform, turning regulated data, security, and operational requirements into a credible platform approach. Led an AI-first consulting and engineering method that improved the speed at which the team could validate solutions and respond to opportunities.
+            Worked on a multi account AWS healthcare data platform, turning regulated data, security, and operational requirements into a credible platform approach. Led an AI-first consulting and engineering method that improved the speed at which the team could validate solutions and respond to opportunities.
             - Led scoping and options conversations for healthcare data workloads
             - Translated security, operational, and delivery constraints into architecture options across segregated AWS accounts
             - Led an agentic AI delivery approach internally, validating 130+ requirements and 500+ commits as evidence of the method
@@ -115,8 +115,8 @@ experiences:
         time: 2025 - 2026
         company: Capgemini
         details: |
-            Served as the trusted link between delivery teams and client stakeholders on a retail-sector AWS data platform. Focused on communicating production readiness, managing delivery risk, and building client confidence.
-            - Owned release planning and production-readiness decisions across three environments
+            Served as the trusted link between delivery teams and client stakeholders on a retail sector AWS data platform. Focused on communicating production readiness, managing delivery risk, and building client confidence.
+            - Owned release planning and production readiness decisions across three environments
             - Communicated readiness and risk clearly to senior stakeholders, improving confidence in the platform
             - Identified and removed delivery blockers, enabling the account to take on additional scope
 
@@ -127,15 +127,15 @@ experiences:
             Recognised a delivery capacity problem on a data visualisation platform and built alignment around a resourcing solution that created measurable commercial value.
             - Identified the account capacity risk and developed a resourcing approach with internal stakeholders
             - Negotiated two unfunded engineers onto the project; converted one into a permanent billable role adding £750/day
-            - Aligned senior client stakeholders and internal teams on solution direction and trade-offs
+            - Aligned senior client stakeholders and internal teams on solution direction and trade offs
             - Balanced solution design with account health, delivery capacity, and commercial priorities
 
       - role: Platform Lead
         time: 2023 - 2024
         company: Capgemini
         details: |
-            Led an Azure-hosted data visualisation platform in the health sector, reducing operational complexity through a simpler, lower-risk platform approach and building trust with senior stakeholders.
-            - Developed a metadata-driven platform that reduced operational complexity and service risk
+            Led an Azure hosted data visualisation platform in the health sector, reducing operational complexity through a simpler, lower-risk platform approach and building trust with senior stakeholders.
+            - Developed a metadata driven platform that reduced operational complexity and service risk
             - Presented technical options and trade-offs to senior client stakeholders, building account credibility
             - Ran workshops and scoping conversations that connected technical decisions to business outcomes
 
@@ -143,10 +143,10 @@ experiences:
         time: 2022 - 2023
         company: Capgemini
         details: |
-            Managed the AWS platform for a large government data visualisation solution while identifying a contractor-reliance and capability risk, then securing investment to expand account capability.
-            - Identified the contractor-reliance gap and built a business case that secured additional investment
+            Managed the AWS platform for a large government data visualisation solution while identifying a contractor reliance and capability risk, then securing investment to expand account capability.
+            - Identified the contractor reliance gap and built a business case that secured additional investment
             - Helped grow the delivery team from 2 to 6 engineers, generating an extra £2,500/day in billables
-            - Owned the end-to-end AWS platform and acted as team lead during the manager's absence
+            - Owned the platform end to end and acted as team lead during the manager's absence
             - Presented platform health and investment needs clearly to stakeholders
 
       - role: DevOps Engineer
@@ -156,19 +156,19 @@ experiences:
             Delivered bulk data migration services on one of Capgemini's largest AWS accounts, becoming a trusted point of contact for migration releases and stakeholder updates.
             - Deployed and managed AWS Database Migration infrastructure as the release owner
             - Coordinated migration releases with downstream consumers, resolving blockers and keeping stakeholders informed
-            - Presented updates to a wider audience, building early customer-facing communication experience
+            - Presented updates to a wider audience, building early customer facing communication experience
 
 projects:
     title: Leadership & Innovation
     intro: 
     assignments:
-      - title: AI-First Consulting Approach
+      - title: AI First Consulting Approach
         link: "#"
-        tagline: "Led a spec-driven, agentic delivery method that accelerates solution validation, increases delivery capacity, and reduces time-to-value for clients."
+        tagline: "Led a spec driven, agentic delivery method that accelerates solution validation, increases delivery capacity, and reduces time to value for clients."
 
       - title: Community & People Development
         link: "#"
-        tagline: "Founded and led a DevOps community that connected engineers across teams through regular knowledge-sharing sessions. Mentored apprentices through qualification and ran outreach programmes that strengthened internal capability."
+        tagline: "Founded and led a DevOps community that connected engineers across teams through regular knowledge sharing sessions. Mentored apprentices through qualification and ran outreach programmes that strengthened internal capability."
 
 
 # oss:
